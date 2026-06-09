@@ -1,6 +1,6 @@
-package Unit;
+package Units;
 
-public class Player extends unit{
+public class Player extends Unit {
     int Health;
     public Player(String name){
         super(name);
