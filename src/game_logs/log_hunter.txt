@@ -1,0 +1,735 @@
+PS C:\Users\TalBarami\Desktop\game> .\hw3.exe levels
+Select player:
+1. Jon Snow             Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+2. The Hound            Health: 400/400         Attack: 20              Defense: 6              Level: 1                Experience: 0/50                Cooldown: 0/5
+3. Melisandre           Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+4. Thoros of Myr                Health: 250/250         Attack: 25              Defense: 4              Level: 1                Experience: 0/50                Mana: 37/150            Spell Power: 20
+5. Arya Stark           Health: 150/150         Attack: 40              Defense: 2              Level: 1                Experience: 0/50                Energy: 100/100
+6. Bronn                Health: 250/250         Attack: 35              Defense: 3              Level: 1                Experience: 0/50                Energy: 100/100
+7. Ygritte              Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+7
+You have selected:
+Ygritte
+#############
+#@....#B...q#
+#.....#.....#
+#.....s.....#
+#s....Bk....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+d
+#############
+#.@...#B...q#
+#.....#.....#
+#.....s.....#
+#.s...Bk....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+d
+#############
+#..@..#....q#
+#.....#.....#
+#.....s.....#
+#s.....k....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+d
+#############
+#...@.#....q#
+#.....#.....#
+#.....s.....#
+#s.....k....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+e
+Ygritte fired an arrow at Lannister Solider.
+Lannister Solider rolled 0 defense points.
+Ygritte hit Lannister Solider for 30 ability damage.
+#############
+#...@.#....q#
+#.....#.....#
+#s....s.....#
+#......k....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 9               Range: 6
+e
+Ygritte fired an arrow at Lannister Solider.
+Lannister Solider rolled 0 defense points.
+Ygritte hit Lannister Solider for 30 ability damage.
+#############
+#...@.#....q#
+#s....#.....#
+#.....s.....#
+#......k....#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 8               Range: 6
+e
+Ygritte fired an arrow at Lannister Solider.
+Lannister Solider rolled 0 defense points.
+Ygritte hit Lannister Solider for 30 ability damage.
+Lannister Solider died. Ygritte gained 25 experience
+#############
+#...@.#....q#
+#s....#.....#
+#...........#
+#.......k...#
+#############
+
+Ygritte         Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 25/50               Arrows: 7               Range: 6
+e
+Ygritte fired an arrow at Bonus Trap.
+Bonus Trap rolled 0 defense points.
+Ygritte hit Bonus Trap for 30 ability damage.
+Bonus Trap died. Ygritte gained 250 experience
+Ygritte reached level 2: +20 Health, +12 Attack, +4 Defense
+Ygritte reached level 3: +30 Health, +18 Attack, +9 Defense
+#############
+#...@.#.....#
+#.....#....q#
+#s..........#
+#.......k...#
+#############
+
+Ygritte         Health: 270/270         Attack: 60              Defense: 15             Level: 3                Experience: 125/150             Arrows: 56              Range: 6
+e
+Ygritte fired an arrow at Lannister Solider.
+Lannister Solider rolled 1 defense points.
+Ygritte hit Lannister Solider for 59 ability damage.
+#############
+#...@.#.....#
+#.....#....q#
+#s..........#
+#........k..#
+#############
+
+Ygritte         Health: 270/270         Attack: 60              Defense: 15             Level: 3                Experience: 125/150             Arrows: 55              Range: 6
+e
+Ygritte fired an arrow at Lannister Solider.
+Lannister Solider rolled 2 defense points.
+Ygritte hit Lannister Solider for 58 ability damage.
+Lannister Solider died. Ygritte gained 25 experience
+Ygritte reached level 4: +40 Health, +24 Attack, +19 Defense
+#############
+#...@.#....q#
+#.....#.....#
+#...........#
+#........k..#
+#############
+
+Ygritte         Health: 310/310         Attack: 84              Defense: 34             Level: 4                Experience: 0/200               Arrows: 94              Range: 6
+e
+Ygritte fired an arrow at Bonus Trap.
+Bonus Trap rolled 0 defense points.
+Ygritte hit Bonus Trap for 84 ability damage.
+Bonus Trap died. Ygritte gained 250 experience
+Ygritte reached level 5: +50 Health, +30 Attack, +39 Defense
+#############
+#...@.#....q#
+#.....#.....#
+#...........#
+#........k..#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 143             Range: 6
+e
+Ygritte fired an arrow at Lannister Knight.
+Lannister Knight rolled 0 defense points.
+Ygritte hit Lannister Knight for 114 ability damage.
+#############
+#...@.#....q#
+#.....#.....#
+#...........#
+#.........k.#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+e
+Ygritte tried to shoot an arrow but there were no enemies in range.
+#############
+#...@.#.....#
+#.....#....q#
+#...........#
+#.........k.#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+e
+Ygritte tried to shoot an arrow but there were no enemies in range.
+#############
+#...@.#.....#
+#.....#.....#
+#.........kq#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+e
+Ygritte tried to shoot an arrow but there were no enemies in range.
+#############
+#...@.#.....#
+#.....#.....#
+#.........kq#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+s
+#############
+#.....#.....#
+#...@.#...k.#
+#...........#
+#..........q#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+d
+#############
+#.....#...k.#
+#....@#.....#
+#...........#
+#..........q#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 50/250              Arrows: 142             Range: 6
+e
+Ygritte fired an arrow at Lannister Knight.
+Lannister Knight rolled 1 defense points.
+Ygritte hit Lannister Knight for 113 ability damage.
+Lannister Knight died. Ygritte gained 50 experience
+#############
+#.....#.....#
+#....@#.....#
+#...........#
+#.........q.#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 141             Range: 6
+s
+#############
+#.....#.....#
+#.....#.....#
+#....@....q.#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 141             Range: 6
+d
+#############
+#.....#.....#
+#.....#.....#
+#.....@..q..#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 141             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 14 defense points.
+Ygritte hit Queen's Guard for 100 ability damage.
+#############
+#.....#.....#
+#.....#.....#
+#.....@.q...#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 140             Range: 6
+a
+#############
+#.....#.....#
+#.....#.....#
+#....@.q....#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 145             Range: 6
+w
+#############
+#.....#.....#
+#....@#.....#
+#.....q.....#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 145             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 3 defense points.
+Ygritte hit Queen's Guard for 111 ability damage.
+#############
+#.....#.....#
+#....@#.....#
+#.....q.....#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 144             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 6 defense points.
+Ygritte hit Queen's Guard for 108 ability damage.
+#############
+#.....#.....#
+#....@#.....#
+#.....q.....#
+#...........#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 100/250             Arrows: 143             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 7 defense points.
+Ygritte hit Queen's Guard for 107 ability damage.
+Queen's Guard died. Ygritte gained 100 experience
+#############
+#@....#M....#
+#.k.#####...#
+#q......Q...#
+#...q...B...#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 200/250             Arrows: 142             Range: 6
+e
+Ygritte fired an arrow at Lannister Knight.
+Lannister Knight rolled 0 defense points.
+Ygritte hit Lannister Knight for 114 ability damage.
+#############
+#@k...#M....#
+#q..#####...#
+#...q...Q...#
+#.......B...#
+#############
+
+Ygritte         Health: 360/360         Attack: 114             Defense: 73             Level: 5                Experience: 200/250             Arrows: 141             Range: 6
+e
+Ygritte fired an arrow at Lannister Knight.
+Lannister Knight rolled 5 defense points.
+Ygritte hit Lannister Knight for 109 ability damage.
+Lannister Knight died. Ygritte gained 50 experience
+Ygritte reached level 6: +60 Health, +36 Attack, +79 Defense
+Queen's Guard engaged in combat with Ygritte.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Ygritte         Health: 420/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 200             Range: 6
+Queen's Guard rolled 17 attack points.
+Ygritte rolled 147 defense points.
+Queen's Guard dealt 0 damage to Ygritte.
+#############
+#@....#M....#
+#q..#####...#
+#..q....Q...#
+#...........#
+#############
+
+Ygritte         Health: 420/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 200             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 3 defense points.
+Ygritte hit Queen's Guard for 147 ability damage.
+Queen's Guard engaged in combat with Ygritte.
+Queen's Guard           Health: 253/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Ygritte         Health: 420/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 199             Range: 6
+Queen's Guard rolled 9 attack points.
+Ygritte rolled 96 defense points.
+Queen's Guard dealt 0 damage to Ygritte.
+#############
+#@....#M....#
+#q.q#####...#
+#.......Q...#
+#...........#
+#############
+
+Ygritte         Health: 420/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 199             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 2 defense points.
+Ygritte hit Queen's Guard for 148 ability damage.
+Queen's Guard engaged in combat with Ygritte.
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Ygritte         Health: 420/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 198             Range: 6
+Queen's Guard rolled 18 attack points.
+Ygritte rolled 14 defense points.
+Queen's Guard dealt 4 damage to Ygritte.
+#############
+#@....#M....#
+#qq.#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 416/420         Attack: 150             Defense: 152            Level: 6                Experience: 0/300               Arrows: 198             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 7 defense points.
+Ygritte hit Queen's Guard for 143 ability damage.
+Queen's Guard died. Ygritte gained 100 experience
+The Mountain shoots Ygritte for 60 damage
+Ygritte rolled 8 defense points.
+The Mountain hit Ygritte for 52 ability damage.
+#############
+#@q...#M....#
+#...#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 100/300             Arrows: 197             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 5 defense points.
+Ygritte hit Queen's Guard for 145 ability damage.
+Queen's Guard engaged in combat with Ygritte.
+Queen's Guard           Health: 255/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 100/300             Arrows: 196             Range: 6
+Queen's Guard rolled 8 attack points.
+Ygritte rolled 149 defense points.
+Queen's Guard dealt 0 damage to Ygritte.
+#############
+#@q...#M....#
+#...#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 100/300             Arrows: 196             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 9 defense points.
+Ygritte hit Queen's Guard for 141 ability damage.
+Queen's Guard engaged in combat with Ygritte.
+Queen's Guard           Health: 114/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 100/300             Arrows: 195             Range: 6
+Queen's Guard rolled 15 attack points.
+Ygritte rolled 58 defense points.
+Queen's Guard dealt 0 damage to Ygritte.
+#############
+#@q...#M....#
+#...#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 100/300             Arrows: 195             Range: 6
+e
+Ygritte fired an arrow at Queen's Guard.
+Queen's Guard rolled 3 defense points.
+Ygritte hit Queen's Guard for 147 ability damage.
+Queen's Guard died. Ygritte gained 100 experience
+#############
+#@....#M....#
+#...#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 194             Range: 6
+s
+#############
+#.....#M....#
+#@..#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 194             Range: 6
+d
+#############
+#.....#M....#
+#.@.#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 194             Range: 6
+d
+#############
+#.....#M....#
+#..@#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 194             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 1 defense points.
+Ygritte hit The Mountain for 149 ability damage.
+#############
+#.....#M....#
+#..@#####...#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 193             Range: 6
+s
+#############
+#.....#M....#
+#...#####...#
+#..@........#
+#.......B...#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 193             Range: 6
+d
+The Mountain shoots Ygritte for 60 damage
+Ygritte rolled 83 defense points.
+The Mountain hit Ygritte for 0 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#...@.......#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 193             Range: 6
+d
+#############
+#.....#M....#
+#...#####...#
+#....@..Q...#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 193             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 0 defense points.
+Ygritte hit The Mountain for 150 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@..Q...#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 192             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 20 defense points.
+Ygritte hit The Mountain for 130 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@..Q...#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 191             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 5 defense points.
+Ygritte hit The Mountain for 145 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 364/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 190             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 20 defense points.
+Ygritte hit The Mountain for 130 ability damage.
+The Mountain shoots Ygritte for 60 damage
+Ygritte rolled 17 defense points.
+The Mountain hit Ygritte for 43 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 321/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 189             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 14 defense points.
+Ygritte hit The Mountain for 136 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 321/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 188             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 8 defense points.
+Ygritte hit The Mountain for 142 ability damage.
+#############
+#.....#M....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 321/420         Attack: 150             Defense: 152            Level: 6                Experience: 200/300             Arrows: 187             Range: 6
+e
+Ygritte fired an arrow at The Mountain.
+The Mountain rolled 22 defense points.
+Ygritte hit The Mountain for 128 ability damage.
+The Mountain died. Ygritte gained 500 experience
+Ygritte reached level 7: +70 Health, +42 Attack, +159 Defense
+Ygritte reached level 8: +80 Health, +48 Attack, +319 Defense
+#############
+#.....#.....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 50/400              Arrows: 336             Range: 6
+e
+Ygritte fired an arrow at Queen's Trap.
+Queen's Trap rolled 6 defense points.
+Ygritte hit Queen's Trap for 234 ability damage.
+#############
+#.....#.....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 50/400              Arrows: 335             Range: 6
+e
+Ygritte fired an arrow at Queen's Trap.
+Queen's Trap rolled 1 defense points.
+Ygritte hit Queen's Trap for 239 ability damage.
+Queen's Trap died. Ygritte gained 100 experience
+#############
+#.....#.....#
+#...#####...#
+#....@......#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+d
+#############
+#.....#.....#
+#...#####...#
+#.....@.....#
+#.......B...#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+d
+Bonus Trap engaged in combat with Ygritte.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+Bonus Trap rolled 0 attack points.
+Ygritte rolled 525 defense points.
+Bonus Trap dealt 0 damage to Ygritte.
+#############
+#.....#.....#
+#...#####...#
+#......@....#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+d
+Bonus Trap engaged in combat with Ygritte.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+Bonus Trap rolled 0 attack points.
+Ygritte rolled 31 defense points.
+Bonus Trap dealt 0 damage to Ygritte.
+#############
+#.....#.....#
+#...#####...#
+#.......@...#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 334             Range: 6
+d
+Bonus Trap engaged in combat with Ygritte.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+Bonus Trap rolled 0 attack points.
+Ygritte rolled 153 defense points.
+Bonus Trap dealt 0 damage to Ygritte.
+#############
+#.....#.....#
+#...#####...#
+#........@..#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+d
+#############
+#.....#.....#
+#...#####...#
+#.........@.#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+w
+#############
+#.....#.....#
+#...#####.@.#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+a
+#############
+#.....#.....#
+#...#####@..#
+#...........#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+s
+Bonus Trap engaged in combat with Ygritte.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+Bonus Trap rolled 0 attack points.
+Ygritte rolled 577 defense points.
+Bonus Trap dealt 0 damage to Ygritte.
+#############
+#.....#.....#
+#...#####...#
+#........@..#
+#...........#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+s
+Bonus Trap engaged in combat with Ygritte.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+Bonus Trap rolled 0 attack points.
+Ygritte rolled 111 defense points.
+Bonus Trap dealt 0 damage to Ygritte.
+#############
+#.....#.....#
+#...#####...#
+#...........#
+#........@..#
+#############
+
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+a
+Ygritte engaged in combat with Bonus Trap.
+Ygritte         Health: 570/570         Attack: 240             Defense: 630            Level: 8                Experience: 150/400             Arrows: 342             Range: 6
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Ygritte rolled 229 attack points.
+Bonus Trap rolled 0 defense points.
+Ygritte dealt 229 damage to Bonus Trap.
+Bonus Trap died. Ygritte gained 250 experience
+Ygritte reached level 9: +90 Health, +54 Attack, +639 Defense
+You won!
