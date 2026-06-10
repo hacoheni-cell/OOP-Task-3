@@ -1,8 +1,6 @@
 package Units;
-
+import Game.Position;
 import jdk.jshell.spi.ExecutionControl;
-
-import javax.swing.text.Position;
 
 public abstract class Player extends Unit {
     Integer experience;
@@ -14,9 +12,12 @@ public abstract class Player extends Unit {
         super(name, healthPool, healthPool, attack, defence, pos);
         experience = 0;
         playerLevel = 1;
-        this.specialAbility = specialAbilty;
+        this.specialAbility = specialAbility;
         this.combatUtiles = combat;
     }
+
+
+
     public abstract int Cast();
 
 
@@ -24,11 +25,18 @@ public abstract class Player extends Unit {
 
 
     public boolean Accept(Unit unit) {
-        unit.Visit(this);
+        return unit.Visit(this);
     }
 
-    public  boolean  Visit(Enemy enemy) {
-        CombatUtiles.Combat(this,enemy);
+    public  boolean Visit(Enemy enemy) {
+        int res = this.combatUtiles.Combat(this, enemy);
+        if (res == -1) {
+            System.out.println("Place holder for player is dead.");
+            return false;
+        }
+        System.out.println("place holder for player is alive and gained points? or 0 points");
+        return true;
     }
+    public void LevelUp(){}
 
 }

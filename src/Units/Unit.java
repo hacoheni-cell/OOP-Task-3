@@ -1,12 +1,13 @@
 package Units;
+import Game.Position;
 
 public abstract class Unit {
-    private String name;
-    private int healthPool;
-    private int healthAmount;
-    private int attackPoints;
-    private int defencePoints;
-    private Position position;
+    protected String name;
+    protected int healthPool;
+    protected int healthAmount;
+    protected int attackPoints;
+    protected int defencePoints;
+    protected Position position;
     public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         this.name = name;
         this.healthPool = healthPool;
@@ -21,6 +22,17 @@ public abstract class Unit {
     }
     public boolean setName(String newName) {
         this.name = newName;
+    }
+    protected static void setHealthPool(int i) {
+    }
+
+    protected static void setDefencePoints(int i) {
+    }
+
+    protected static void setHealthAmount(int min) {
+    }
+
+    protected static void setAttackPoints(int i) {
     }
     public abstract String Description();
 

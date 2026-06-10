@@ -1,5 +1,5 @@
 package Units;
 
 public interface CombatSystem {
-    public boolean Combat(Unit attacker,Unit Defender);
+    public int Combat(Unit attacker,Unit Defender);
 }
