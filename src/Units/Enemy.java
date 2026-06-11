@@ -9,10 +9,11 @@ abstract public class Enemy extends Unit{
         this.experience = experience;
     }
 
-    abstract public void AdvanceVisit(Player player);
-    abstract public void AdvanceAccept(Unit unit);
-    public void AdvanceVisit(Unit unit){
-        return unit.AdvanceAccept(this);
+    public void AdvanceAccept(Unit unit){
+        unit.AdvanceVisit(this);
+    }
+    protected void AdvanceVisit(Player p){
+        CombatSystem.combat(this,p);
     }
     public int getExperience() {
         return experience;

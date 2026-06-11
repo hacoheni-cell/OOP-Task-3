@@ -16,11 +16,4 @@ public class Trap extends Enemy {
     public String toString(){
         return "Trap";
     }
-    public void AdvanceAccept(Unit unit){
-        unit.AdvanceVisit(this);
-    }
-
-    public void AdvanceVisit(Player p){
-        combatSystem.combat(this,p);
-    }
 }

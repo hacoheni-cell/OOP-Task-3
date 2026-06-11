@@ -7,12 +7,4 @@ public class Monster extends Enemy{
         super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position);
         this.visionRange = visionRange;
     }
-    public void AdvanceAccept(Unit unit){
-        unit.AdvanceVisit(this);
-    }
-
-    @Override
-    public void AdvanceVisit(Player p) {
-         CombatSystem.combat(this,p);
-    }
 }
