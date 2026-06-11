@@ -3,7 +3,7 @@ package Units;
 import jdk.jshell.spi.ExecutionControl;
 
 abstract public class Enemy extends Unit{
-    int experience;
+    protected int experience;
     public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position);
         this.experience = experience;
