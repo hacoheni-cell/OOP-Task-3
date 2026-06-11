@@ -18,7 +18,9 @@ public class Rouge extends Player {
     //game tick is missing
     @Override
     public int Cast() {
-        //if(currentEnergy < cost) { throw new IllegalArgumentException("No enough energy for cast.");}
+        if(currentEnergy < cost) {
+            throw new IllegalArgumentException("No enough energy for cast.");
+        }
         currentEnergy -= cost;
         //- For each enemy within range < 2, deal damage (reduce health value) equals to the
         //rogue’s attack points (each enemy will try to defend itself).

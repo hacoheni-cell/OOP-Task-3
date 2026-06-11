@@ -23,16 +23,42 @@ public abstract class Unit {
     public boolean setName(String newName) {
         this.name = newName;
     }
-    protected static void SetHealthPool(int i) {
+    protected  void SetHealthPool(int i) {
+        if (i < 0) {
+            this.healthPool = 0;
+        }
+        else {
+            this.healthPool = i;
+        }
     }
 
-    protected static void SetDefencePoints(int i) {
+    protected  void SetDefencePoints(int i) {
+        if(i < 0) {
+            this.defencePoints = 0;
+        }
+        else {
+            this.defencePoints = i;
+        }
     }
 
-    protected static void SetHealthAmount(int min) {
+    protected  void SetHealthAmount(int health) {
+        if (healthPool < health) {
+            this.healthAmount = health;
+        }
+        else {
+            healthAmount = health;
+        }
+
+
     }
 
-    protected static void SetAttackPoints(int i) {
+    protected  void SetAttackPoints(int i) {
+        if( attackPoints < i) {
+            attackPoints = 0;
+        }
+        else {
+            attackPoints = i;
+        }
     }
     public abstract String Description();
 

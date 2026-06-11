@@ -19,7 +19,9 @@ public class Warrior extends Player {
             //- Randomly hits one enemy within range < 3 for an amount equals to 10% of the
             // warrior’s health pool
         }
-       // else {throw new IllegalArgumentException("cannot cast because there is cooldown remain");}
+        else {
+            throw new IllegalArgumentException("cannot cast because there is cooldown remain");
+        }
         return 0;
     }
     public boolean decracseCoolDown() {
@@ -34,9 +36,8 @@ public class Warrior extends Player {
     public void LevelUp() {
         PlayerLevelUp();
         this.reamainingCoolDown = 0;
-        Unit.SetHealthPool( healthPool + 5 * playerLevel);
-        Unit.SetDefencePoints(defencePoints + playerLevel);
-        //playerLevel++; in player?
+        SetHealthPool( healthPool + 5 * playerLevel);
+        SetDefencePoints(defencePoints + playerLevel);
     }
 
     @Override

@@ -39,23 +39,22 @@ public abstract class Player extends Unit {
     public void PlayerLevelUp(){
         SetExperience(experience - 50 * playerLevel);
         playerLevel++;
-        Unit.SetHealthPool(healthPool + 10 * playerLevel);
-        Unit.SetHealthAmount(healthPool);
-        Unit.SetAttackPoints(attackPoints + 4 * playerLevel);
+        SetHealthPool(healthPool + 10 * playerLevel);
+        SetHealthAmount(healthPool);
+        SetAttackPoints(attackPoints + 4 * playerLevel);
         SetDefencePoints(defencePoints + playerLevel);
-
-
     }
 
-    public boolean SetExperience(int i) {
-        if( i < 0) {
-            return false;
+    protected void SetExperience(int i) {
+        if(i < 0) {
+            experience = 0;
         }
-        experience = i;
+        else {
+            experience = i;
+        }
         if(experience >= 50 * playerLevel) {
             LevelUp();
-            return true;
         }
-    }
 
+    }
 }
