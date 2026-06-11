@@ -65,11 +65,11 @@ public abstract class Unit {
 
 
     public  boolean Advance(Unit other) {
-        return other.Accept(this);
+        return other.AdvanceAccept(this);
     }
-    public abstract boolean Accept(Unit unit);
-    private boolean Visit(Unit unit) {return false;}
-    public boolean Visit(Player player) {return false;}
-    public  boolean Visit(Enemy enemy) {return false;}
+    public abstract boolean AdvanceAccept(Unit unit);
+    private boolean AdvanceVisit(Unit unit) {return false;}
+    public boolean AdvanceVisit(Player player) {return false;}
+    public  boolean AdvanceVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
 }

@@ -18,11 +18,11 @@ public abstract class Player extends Unit {
     public abstract String Description();
 
 
-    public boolean Accept(Unit unit) {
-        return unit.Visit(this);
+    public boolean AdvanceAccept(Unit unit) {
+        return AdvanceVisit(this);
     }
 
-    public  boolean Visit(Enemy enemy) {
+    public  boolean AdvanceVisit(Enemy enemy) {
         int res = this.combatUtiles.Combat(this, enemy);
         if (res == -1) {
             System.out.println("Place holder for player is dead.");
