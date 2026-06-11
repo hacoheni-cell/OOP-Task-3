@@ -1,6 +1,5 @@
 package Units;
 import Game.Position;
-import jdk.jshell.spi.ExecutionControl;
 
 public abstract class Player extends Unit {
     Integer experience;
@@ -16,10 +15,7 @@ public abstract class Player extends Unit {
         this.combatUtiles = combat;
     }
 
-
-
     public abstract int Cast();
-
 
     public abstract String Description();
 
@@ -37,6 +33,29 @@ public abstract class Player extends Unit {
         System.out.println("place holder for player is alive and gained points? or 0 points");
         return true;
     }
-    public void LevelUp(){}
+
+    public abstract void LevelUp();
+
+    public void PlayerLevelUp(){
+        SetExperience(experience - 50 * playerLevel);
+        playerLevel++;
+        Unit.SetHealthPool(healthPool + 10 * playerLevel);
+        Unit.SetHealthAmount(healthPool);
+        Unit.SetAttackPoints(attackPoints + 4 * playerLevel);
+        SetDefencePoints(defencePoints + playerLevel);
+
+
+    }
+
+    public boolean SetExperience(int i) {
+        if( i < 0) {
+            return false;
+        }
+        experience = i;
+        if(experience >= 50 * playerLevel) {
+            LevelUp();
+            return true;
+        }
+    }
 
 }

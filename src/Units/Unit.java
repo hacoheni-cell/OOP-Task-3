@@ -23,16 +23,16 @@ public abstract class Unit {
     public boolean setName(String newName) {
         this.name = newName;
     }
-    protected static void setHealthPool(int i) {
+    protected static void SetHealthPool(int i) {
     }
 
-    protected static void setDefencePoints(int i) {
+    protected static void SetDefencePoints(int i) {
     }
 
-    protected static void setHealthAmount(int min) {
+    protected static void SetHealthAmount(int min) {
     }
 
-    protected static void setAttackPoints(int i) {
+    protected static void SetAttackPoints(int i) {
     }
     public abstract String Description();
 
