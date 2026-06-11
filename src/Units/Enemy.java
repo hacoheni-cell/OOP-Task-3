@@ -9,16 +9,19 @@ abstract public class Enemy extends Unit{
         this.experience = experience;
     }
 
-    abstract public void visit(Player player);
-    abstract public void accept(Unit unit);
-    public void visit(Unit unit){
-        return unit.accept(this);
+    abstract public void AdvanceVisit(Player player);
+    abstract public void AdvanceAccept(Unit unit);
+    public void AdvanceVisit(Unit unit){
+        return unit.AdvanceAccept(this);
     }
     public int getExperience() {
         return experience;
     }
     public String toString(){
         return "" + this.getName();
+    }
+    public void attack(Unit unit){
+        .....
     }
     public boolean equals(Object object){
         boolean res = false;

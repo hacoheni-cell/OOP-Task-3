@@ -5,7 +5,7 @@ public class Trap extends Enemy {
     protected int invisibilityTime;
     protected int ticksCount;
     protected boolean visible;
-    
+
     public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position) {
         super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position);
         this.visibilityTime = visibilityTime;
@@ -16,11 +16,11 @@ public class Trap extends Enemy {
     public String toString(){
         return "Trap";
     }
-    public void accept(Unit unit){
-        unit.visit(this);
+    public void AdvanceAccept(Unit unit){
+        unit.AdvanceVisit(this);
     }
 
-    public void visit(Player p){
+    public void AdvanceVisit(Player p){
         combatSystem.combat(this,p);
     }
 }
