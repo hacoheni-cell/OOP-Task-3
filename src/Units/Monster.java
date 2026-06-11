@@ -7,4 +7,12 @@ public class Monster extends Enemy{
         super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position);
         this.visionRange = visionRange;
     }
+    public void accept(Unit unit){
+        unit.visit(this);
+    }
+
+    @Override
+    public void visit(Player p) {
+         CombatSystem.combat(this,p);
+    }
 }

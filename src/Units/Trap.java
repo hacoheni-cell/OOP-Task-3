@@ -15,4 +15,11 @@ public class Trap extends Enemy {
     public String toString(){
         return "Trap";
     }
+    public void accept(Unit unit){
+        unit.visit(this);
+    }
+
+    public void visit(Player p){
+        combatSystem.combat(this,p);
+    }
 }

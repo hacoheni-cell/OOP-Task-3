@@ -2,15 +2,17 @@ package Units;
 
 import jdk.jshell.spi.ExecutionControl;
 
-public class Enemy extends Unit{
+abstract public class Enemy extends Unit{
     int experience;
     public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position);
         this.experience = experience;
     }
 
-    public void vial(Player player){
-        combatUtiles.combat(this,player);
+    abstract public void visit(Player player);
+    abstract public void accept(Unit unit);
+    public void visit(Unit unit){
+        return unit.accept(this);
     }
     public int getExperience() {
         return experience;
