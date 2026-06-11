@@ -2,16 +2,14 @@ package Units;
 import Game.Position;
 
 public abstract class Player extends Unit {
-    Integer experience;
-    Integer playerLevel;
-    SpecialAbility specialAbility;
+    protected Integer experience;
+    protected Integer playerLevel;
     protected CombatSystem combatUtiles;
 
-    public Player(String name, int healthPool, int attack, int defence, Position pos, SpecialAbility specialAbility, CombatSystem combat){
+    public Player(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat){
         super(name, healthPool, healthPool, attack, defence, pos);
         experience = 0;
         playerLevel = 1;
-        this.specialAbility = specialAbility;
         this.combatUtiles = combat;
     }
 
@@ -34,9 +32,7 @@ public abstract class Player extends Unit {
         return true;
     }
 
-    public abstract void LevelUp();
-
-    public void PlayerLevelUp(){
+    public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);
         playerLevel++;
         SetHealthPool(healthPool + 10 * playerLevel);
@@ -46,15 +42,10 @@ public abstract class Player extends Unit {
     }
 
     protected void SetExperience(int i) {
-        if(i < 0) {
-            experience = 0;
-        }
-        else {
-            experience = i;
-        }
+        experience = Math.max(i, 0);
         if(experience >= 50 * playerLevel) {
             LevelUp();
         }
-
     }
+    public abstract int GetRange();
 }

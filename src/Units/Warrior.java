@@ -1,32 +1,36 @@
 package Units;
 import Game.Position;
+import SpecialAbility.SpecialAbility;
+import SpecialAbility.AvengersShiled;
 
 public class Warrior extends Player {
-    protected Integer reamainingCoolDown;
+    protected final Integer Range;
+    protected SpecialAbility specialA;
+    protected Integer remainingCoolDown;
     protected Integer abilityCoolDown;
-    public Warrior(String name, int healthPool, int attack, int defence, Position pos, SpecialAbility specialAbility, CombatSystem combat,int abilityCoolDown) {
-        super(name, healthPool, attack, defence, pos,specialAbility,combat);
-        reamainingCoolDown = 0;
+    public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat,int abilityCoolDown) {
+        super(name, healthPool, attack, defence, pos,combat);
+        remainingCoolDown = 0;
         this.abilityCoolDown = abilityCoolDown;
+        specialA = new AvengersShiled();
+        Range = specialA.GetRange();
     }
 
     @Override
     public int Cast() {
-        if(reamainingCoolDown == 0) {
-            //int res = this.specialAbility.cast();?
-            this.reamainingCoolDown = this.abilityCoolDown;
-            SetHealthAmount(Math.min(healthAmount + ( 10 * this.defencePoints),this.healthPool));
-            //- Randomly hits one enemy within range < 3 for an amount equals to 10% of the
-            // warrior’s health pool
+        if(remainingCoolDown == 0) {
+            int res = specialA.Cast();
+            this.remainingCoolDown = this.abilityCoolDown;
+            SetHealthAmount( healthAmount + 10 * this.defencePoints);
+            return res;
         }
         else {
             throw new IllegalArgumentException("cannot cast because there is cooldown remain");
         }
-        return 0;
     }
-    public boolean decracseCoolDown() {
-        if (this.reamainingCoolDown > 0) {
-            reamainingCoolDown--;
+    public boolean decreaseCoolDown() {
+        if (this.remainingCoolDown > 0) {
+            remainingCoolDown--;
             return true;
         }
         return false;
@@ -34,10 +38,15 @@ public class Warrior extends Player {
 
     //game tick is missing
     public void LevelUp() {
-        PlayerLevelUp();
-        this.reamainingCoolDown = 0;
+        super.LevelUp();
+        this.remainingCoolDown = 0;
         SetHealthPool( healthPool + 5 * playerLevel);
         SetDefencePoints(defencePoints + playerLevel);
+    }
+
+    @Override
+    public int GetRange() {
+        return Range;
     }
 
     @Override

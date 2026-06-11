@@ -1,21 +1,25 @@
 package Units;
 import Game.Position;
+import SpecialAbility.SpecialAbility;
+import SpecialAbility.Blizzard;
 
 public class Mage extends Player {
+    protected final Integer Range;
+    protected SpecialAbility specialA;
     protected Integer spellPower;
     protected Integer manaPool;
     protected Integer currentMana;
     protected Integer manaCost;
     protected Integer hitsCount;
-    protected Integer abilityRange;
-    public Mage(String name, int healthPool, int attack, int defence, Position pos, SpecialAbility specialAbility, CombatSystem combat, Integer manaPool, Integer manaCost, Integer spellPower, Integer hitsCount, Integer abilityRange) {
-        super(name, healthPool, attack, defence, pos,specialAbility,combat);
+    public Mage(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, Integer manaPool, Integer manaCost, Integer spellPower, Integer hitsCount, Integer abilityRange) {
+        super(name, healthPool, attack, defence, pos, combat);
         this.manaPool = manaPool;
         currentMana = manaPool / 4;
         this.manaCost = manaCost;
         this.spellPower = spellPower;
         this.hitsCount = hitsCount;
-        this.abilityRange = abilityRange;
+        specialA = new Blizzard(abilityRange);
+        this.Range = abilityRange;
     }
     protected void SetSpellPower(int i) {
         if ( i < 0){
@@ -48,7 +52,7 @@ public class Mage extends Player {
     }
 
     public void LevelUp(){
-        PlayerLevelUp();
+        super.LevelUp();
         SetManaPool(manaPool + 25 * playerLevel);
         SetCurrentMana(currentMana + manaPool / 4);
         SetSpellPower(spellPower + 10 * playerLevel);
@@ -71,5 +75,9 @@ public class Mage extends Player {
     @Override
     public String Description() {
         return "place holder for Mage description";
+    }
+    @Override
+    public int GetRange() {
+        return Range;
     }
 }

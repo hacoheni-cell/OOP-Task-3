@@ -1,17 +1,23 @@
 package Units;
 import Game.Position;
+import SpecialAbility.SpecialAbility;
+import SpecialAbility.FanOfKnives;
 
 public class Rouge extends Player {
+    protected final Integer Range;
+    protected SpecialAbility specialA;
     protected Integer cost;
     protected Integer currentEnergy;
     public Rouge(String name, int healthPool, int attack, int defence, Position pos, SpecialAbility specialAbility, CombatSystem combat, Integer cost) {
-        super(name, healthPool, attack, defence, pos,specialAbility,combat);
+        super(name, healthPool, attack, defence, pos,combat);
         this.cost = cost;
         this.currentEnergy = 100;
+        specialA = new FanOfKnives();
+        Range = specialAbility.GetRange();
     }
 
     public void LevelUp(){
-        PlayerLevelUp();
+        super.LevelUp();
         this.currentEnergy = 100;
         SetAttackPoints(attackPoints + (3 * playerLevel));
     }
@@ -30,5 +36,9 @@ public class Rouge extends Player {
     @Override
     public String Description() {
         return "place holder for Rouge description";
+    }
+    @Override
+    public int GetRange() {
+        return Range;
     }
 }

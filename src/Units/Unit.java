@@ -23,6 +23,7 @@ public abstract class Unit {
     public boolean setName(String newName) {
         this.name = newName;
     }
+
     protected  void SetHealthPool(int i) {
         if (i < 0) {
             this.healthPool = 0;
@@ -66,10 +67,9 @@ public abstract class Unit {
     public  boolean Advance(Unit other) {
         return other.Accept(this);
     }
-    public  boolean Accept(Unit unit){
-        return false;
-    }
+    public abstract boolean Accept(Unit unit);
     private boolean Visit(Unit unit) {return false;}
     public boolean Visit(Player player) {return false;}
     public  boolean Visit(Enemy enemy) {return false;}
+    public abstract int GetRange();
 }
