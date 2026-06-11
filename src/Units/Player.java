@@ -22,7 +22,7 @@ public abstract class Player extends Unit {
         return other.AdvanceVisit(this);
     }
 
-    public boolean AdvanceVisit(Enemy enemy) {
+    protected boolean AdvanceVisit(Enemy enemy) {
         int res = this.combatUtiles.Combat(this, enemy);
         if (res == -1) {
             System.out.println("Place holder for player is dead.");
