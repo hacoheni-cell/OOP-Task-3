@@ -1,6 +1,8 @@
 package Combat_System;
 
 import Units.Unit;
+
+import java.io.NotActiveException;
 import java.util.Random;
 
 public class DefaultCombat implements CombatSystem {
@@ -30,6 +32,6 @@ public class DefaultCombat implements CombatSystem {
         return damage;
     }
 public int Attack(Unit attacker, Unit Defender) {
-        int Defender.getAttackPoints();
+        throw new NullPointerException();
 }
 }
