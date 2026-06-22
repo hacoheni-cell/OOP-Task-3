@@ -5,13 +5,12 @@ import Game.Position;
 public abstract class Player extends Unit {
     protected Integer experience;
     protected Integer playerLevel;
-    protected CombatSystem combatUtiles;
 
     public Player(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat){
         super(name, healthPool, healthPool, attack, defence, pos);
         experience = 0;
         playerLevel = 1;
-        this.combatUtiles = combat;
+
     }
 
     public abstract int Cast();
@@ -35,7 +34,7 @@ public abstract class Player extends Unit {
         return true;
     }
     public boolean AttackVisit(Enemy enemy){
-        return CombatSystem.Attack(this,enemy);
+        return combatUtiles.Attack(this,enemy);
     }
     public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);
