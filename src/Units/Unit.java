@@ -79,4 +79,20 @@ public abstract class Unit {
     public boolean AttackVisit(Player player) {return false;}
     public boolean AttackVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
+
+    public int getAttackPoints() {
+        return attackPoints;
+    }
+
+    public int getDefencePoints() {
+        return defencePoints;
+    }
+
+    public int getHealthAmount() {
+        return healthAmount;
+    }
+
+    public void setHealthAmount(int newHealth) {
+     healthAmount = newHealth;
+    }
 }
