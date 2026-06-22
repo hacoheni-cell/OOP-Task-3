@@ -2,11 +2,10 @@ package SpecialAbility;
 
 public class Blizzard extends SpecialAbility {
     private final Integer range;
-
-    @Override
-    public Blizzard(Integer range){
+    public Blizzard(Integer range) {
         this.range = range;
     }
+    @Override
     public int GetRange() {
         return range;
     }

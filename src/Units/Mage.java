@@ -1,10 +1,11 @@
 package Units;
+import Combat_System.CombatSystem;
 import Game.Position;
 import SpecialAbility.SpecialAbility;
 import SpecialAbility.Blizzard;
 
 public class Mage extends Player {
-    protected final Integer Range;
+    protected final Integer attackRange;
     protected SpecialAbility specialA;
     protected Integer spellPower;
     protected Integer manaPool;
@@ -19,7 +20,7 @@ public class Mage extends Player {
         this.spellPower = spellPower;
         this.hitsCount = hitsCount;
         specialA = new Blizzard(abilityRange);
-        this.Range = abilityRange;
+        this.attackRange = abilityRange;
     }
     protected void SetSpellPower(int i) {
         if ( i < 0){
@@ -78,6 +79,6 @@ public class Mage extends Player {
     }
     @Override
     public int GetRange() {
-        return Range;
+        return attackRange;
     }
 }

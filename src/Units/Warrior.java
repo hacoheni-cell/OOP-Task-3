@@ -1,19 +1,20 @@
 package Units;
+import Combat_System.CombatSystem;
 import Game.Position;
 import SpecialAbility.SpecialAbility;
 import SpecialAbility.AvengersShiled;
 
 public class Warrior extends Player {
-    protected final Integer Range;
+    protected final Integer attackRange;
     protected SpecialAbility specialA;
     protected Integer remainingCoolDown;
     protected Integer abilityCoolDown;
-    public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat,int abilityCoolDown) {
+    public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int abilityCoolDown) {
         super(name, healthPool, attack, defence, pos,combat);
         remainingCoolDown = 0;
         this.abilityCoolDown = abilityCoolDown;
         specialA = new AvengersShiled();
-        Range = specialA.GetRange();
+        attackRange = specialA.GetRange();
     }
 
     @Override
@@ -46,7 +47,7 @@ public class Warrior extends Player {
 
     @Override
     public int GetRange() {
-        return Range;
+        return attackRange;
     }
 
     @Override
