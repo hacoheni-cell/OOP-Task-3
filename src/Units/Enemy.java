@@ -17,11 +17,16 @@ public abstract class Enemy extends Unit {
     }
 
     public boolean AdvanceVisit(Player p){
-        // TODO: needs a CombatSystem instance — cannot call interface method statically
-        return false;
+        int res = CombatSystem.Combat(this,p);
+        if (res == -1) {
+            System.out.println("Place holder for player is dead.");
+            return false;
+        }
+        System.out.println("place holder for player is alive and gained points? or 0 points");
+        return true;
     }
     public boolean AttackVisit(Player p){
-        // TODO: needs a CombatSystem instance — cannot call interface method statically
+        CombatSystem.Attack(this,p);
         return false;
     }
     public int getExperience() {

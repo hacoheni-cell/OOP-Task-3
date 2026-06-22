@@ -36,7 +36,7 @@ public class Warrior extends Player {
         return false;
     }
 
-    //game tick is missing
+
     public void LevelUp() {
         super.LevelUp();
         this.remainingCoolDown = 0;

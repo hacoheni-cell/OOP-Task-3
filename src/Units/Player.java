@@ -45,11 +45,14 @@ public abstract class Player extends Unit {
         SetDefencePoints(defencePoints + playerLevel);
     }
 
-    protected void SetExperience(int i) {
+    public void SetExperience(int i) {
         experience = Math.max(i, 0);
         if(experience >= 50 * playerLevel) {
             LevelUp();
         }
+    }
+    public boolean isAlive(){
+        return healthAmount <= 0;
     }
     public abstract int GetRange();
 }

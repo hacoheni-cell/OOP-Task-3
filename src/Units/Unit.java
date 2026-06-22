@@ -21,7 +21,7 @@ public abstract class Unit {
         return name;
     }
 
-    // BUG FIX 1: setName declared boolean but missing return statement
+
     public void setName(String newName) {
         this.name = newName;
     }
