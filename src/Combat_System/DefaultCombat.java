@@ -29,4 +29,7 @@ public class DefaultCombat implements CombatSystem {
         }
         return damage;
     }
+public int Attack(Unit attacker, Unit Defender) {
+        int Defender.getAttackPoints();
+}
 }

@@ -1,4 +1,6 @@
 package Units;
+import Combat_System.CombatSystem;
+import Combat_System.DefaultCombat;
 import Game.Position;
 
 public abstract class Unit {
@@ -8,6 +10,7 @@ public abstract class Unit {
     protected int attackPoints;
     protected int defencePoints;
     protected Position position;
+    protected CombatSystem combatUtiles;
     public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         this.name = name;
         this.healthPool = healthPool;
@@ -15,6 +18,7 @@ public abstract class Unit {
         this.attackPoints = attackPoints;
         this.defencePoints = defencePoints;
         this.position = position;
+        combatUtiles = new DefaultCombat();
     }
 
     public String getName() {

@@ -1,7 +1,6 @@
 package Units;
 import Game.Position;
 
-// BUG FIX 4: removed unused import of jdk.jshell.spi.ExecutionControl
 public abstract class Enemy extends Unit {
     protected int experience;
     public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
@@ -17,7 +16,7 @@ public abstract class Enemy extends Unit {
     }
 
     public boolean AdvanceVisit(Player p){
-        int res = CombatSystem.Combat(this,p);
+        int res = combatUtiles.Combat(this,p);
         if (res == -1) {
             System.out.println("Place holder for player is dead.");
             return false;
@@ -26,7 +25,7 @@ public abstract class Enemy extends Unit {
         return true;
     }
     public boolean AttackVisit(Player p){
-        CombatSystem.Attack(this,p);
+        int res = combatUtiles.Attack(this,p);
         return false;
     }
     public int getExperience() {
