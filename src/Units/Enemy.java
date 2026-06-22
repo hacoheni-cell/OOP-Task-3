@@ -1,6 +1,6 @@
 package Units;
 
-import jdk.jshell.spi.ExecutionControl;
+import Combat_System.CombatSystem;
 
 abstract public class Enemy extends Unit{
     protected int experience;
@@ -13,7 +13,7 @@ abstract public class Enemy extends Unit{
         unit.AdvanceVisit(this);
     }
     protected void AdvanceVisit(Player p){
-        CombatSystem.combat(this,p);
+        CombatSystem.Combat(this,p);
     }
     public int getExperience() {
         return experience;

@@ -1,10 +1,11 @@
 package Units;
+import Combat_System.CombatSystem;
 import Game.Position;
 import SpecialAbility.SpecialAbility;
 import SpecialAbility.FanOfKnives;
 
 public class Rouge extends Player {
-    protected final Integer Range;
+    protected final Integer attackRange;
     protected SpecialAbility specialA;
     protected Integer cost;
     protected Integer currentEnergy;
@@ -13,7 +14,7 @@ public class Rouge extends Player {
         this.cost = cost;
         this.currentEnergy = 100;
         specialA = new FanOfKnives();
-        Range = specialAbility.GetRange();
+        attackRange = specialAbility.GetRange();
     }
 
     public void LevelUp(){
@@ -39,6 +40,6 @@ public class Rouge extends Player {
     }
     @Override
     public int GetRange() {
-        return Range;
+        return attackRange;
     }
 }

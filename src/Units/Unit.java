@@ -22,6 +22,7 @@ public abstract class Unit {
     }
     public boolean setName(String newName) {
         this.name = newName;
+        return true;
     }
 
     protected  void SetHealthPool(int i) {
@@ -31,6 +32,10 @@ public abstract class Unit {
         else {
             this.healthPool = i;
         }
+    }
+
+    public int getAttackPoints() {
+        return attackPoints;
     }
 
     protected  void SetDefencePoints(int i) {
@@ -65,11 +70,22 @@ public abstract class Unit {
 
 
     public boolean Advance(Unit other){
-        other.AdvanceAccept(this);
+        return other.AdvanceAccept(this);
     }
     protected abstract boolean AdvanceAccept(Unit unit);
-    protected abstract boolean AdvanceVisit(Unit unit);
     protected boolean AdvanceVisit(Player player) {return false;}
     protected boolean AdvanceVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
+
+    public int getDefencePoints() {
+        return defencePoints;
+    }
+
+    public int getHealthAmount() {
+        return healthAmount;
+    }
+
+    public void setHealthAmount(int newHealth) {
+        healthAmount = newHealth;
+    }
 }
