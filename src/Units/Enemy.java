@@ -9,25 +9,22 @@ abstract public class Enemy extends Unit{
         this.experience = experience;
     }
 
-    public void AdvanceAccept(Unit unit){
-        unit.AdvanceVisit(this);
+    public boolean AdvanceAccept(Unit unit){
+        return unit.AdvanceVisit(this);
     }
-    protected void AdvanceVisit(Player p){
-        CombatSystem.combat(this,p);
+    public boolean AttackAccept(Unit unit){
+        return  unit.AttackVisit(this);
+    }
+    protected boolean AdvanceVisit(Player p){
+        return CombatSystem.Combat(this,p);
+    }
+    protected boolean AttackVisit(Player p){
+        return CombatSystem.Combat(this,p);
     }
     public int getExperience() {
         return experience;
     }
     public String toString(){
-        return "" + this.getName();
-    }
-    public void attack(Unit unit){
-        .....
-    }
-    public boolean equals(Object object){
-        boolean res = false;
-        if(object instanceof Enemy){
-
-        }
+        return this.getName();
     }
 }

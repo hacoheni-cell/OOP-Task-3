@@ -68,7 +68,6 @@ public abstract class Unit {
         other.AdvanceAccept(this);
     }
     protected abstract boolean AdvanceAccept(Unit unit);
-    protected abstract boolean AdvanceVisit(Unit unit);
     protected boolean AdvanceVisit(Player player) {return false;}
     protected boolean AdvanceVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
