@@ -2,7 +2,7 @@ package Units;
 
 import jdk.jshell.spi.ExecutionControl;
 
-abstract public class Enemy extends Unit{
+  public abstract class Enemy extends Unit{
     protected int experience;
     public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position);
@@ -19,7 +19,7 @@ abstract public class Enemy extends Unit{
         return CombatSystem.Combat(this,p);
     }
     protected boolean AttackVisit(Player p){
-        return CombatSystem.Combat(this,p);
+        return CombatSystem.Attack(this,p);
     }
     public int getExperience() {
         return experience;

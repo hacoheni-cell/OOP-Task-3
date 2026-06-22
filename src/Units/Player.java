@@ -21,7 +21,9 @@ public abstract class Player extends Unit {
     public boolean AdvanceAccept(Unit other) {
         return other.AdvanceVisit(this);
     }
-
+    public boolean AttackAccept(Unit other) {
+        return other.AttackVisit(this);
+    }
     protected boolean AdvanceVisit(Enemy enemy) {
         int res = this.combatUtiles.Combat(this, enemy);
         if (res == -1) {
@@ -31,7 +33,9 @@ public abstract class Player extends Unit {
         System.out.println("place holder for player is alive and gained points? or 0 points");
         return true;
     }
-
+   protected boolean AttackVisit(Enemy enemy){
+        return CombatSystem.Attack(this,enemy);
+   }
     public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);
         playerLevel++;
