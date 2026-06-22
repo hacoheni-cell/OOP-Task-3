@@ -1,8 +1,8 @@
 package Units;
+import Game.Position;
 
-import jdk.jshell.spi.ExecutionControl;
-
-  public abstract class Enemy extends Unit{
+// BUG FIX 4: removed unused import of jdk.jshell.spi.ExecutionControl
+public abstract class Enemy extends Unit {
     protected int experience;
     public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position);
@@ -13,13 +13,16 @@ import jdk.jshell.spi.ExecutionControl;
         return unit.AdvanceVisit(this);
     }
     public boolean AttackAccept(Unit unit){
-        return  unit.AttackVisit(this);
+        return unit.AttackVisit(this);
     }
-    protected boolean AdvanceVisit(Player p){
-        return CombatSystem.Combat(this,p);
+
+    public boolean AdvanceVisit(Player p){
+        // TODO: needs a CombatSystem instance — cannot call interface method statically
+        return false;
     }
-    protected boolean AttackVisit(Player p){
-        return CombatSystem.Attack(this,p);
+    public boolean AttackVisit(Player p){
+        // TODO: needs a CombatSystem instance — cannot call interface method statically
+        return false;
     }
     public int getExperience() {
         return experience;

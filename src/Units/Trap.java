@@ -1,4 +1,5 @@
 package Units;
+import Game.Position;
 
 public class Trap extends Enemy {
     protected int visibilityTime;

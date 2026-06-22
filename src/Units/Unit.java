@@ -20,11 +20,13 @@ public abstract class Unit {
     public String getName() {
         return name;
     }
-    public boolean setName(String newName) {
+
+    // BUG FIX 1: setName declared boolean but missing return statement
+    public void setName(String newName) {
         this.name = newName;
     }
 
-    protected  void SetHealthPool(int i) {
+    public void SetHealthPool(int i) {
         if (i < 0) {
             this.healthPool = 0;
         }
@@ -33,7 +35,7 @@ public abstract class Unit {
         }
     }
 
-    protected  void SetDefencePoints(int i) {
+    public void SetDefencePoints(int i) {
         if(i < 0) {
             this.defencePoints = 0;
         }
@@ -42,39 +44,39 @@ public abstract class Unit {
         }
     }
 
-    protected  void SetHealthAmount(int health) {
-        if (healthPool < health) {
-            this.healthAmount = health;
+
+    public void SetHealthAmount(int health) {
+        if (health > healthPool) {
+            this.healthAmount = healthPool;
         }
         else {
-            healthAmount = health;
+            this.healthAmount = health;
         }
-
-
     }
 
-    protected  void SetAttackPoints(int i) {
-        if( attackPoints < i) {
+
+    public void SetAttackPoints(int i) {
+        if (i < 0) {
             attackPoints = 0;
         }
         else {
             attackPoints = i;
         }
     }
-    public abstract String Description();
 
+    public abstract String Description();
 
     public boolean Advance(Unit other){
         return other.AdvanceAccept(this);
     }
     public boolean Attack(Unit other){
-        return  other.AttackAccept(this);
+        return other.AttackAccept(this);
     }
-    protected abstract  boolean AttackAccept(Unit unit);
-    protected abstract boolean AdvanceAccept(Unit unit);
-    protected boolean AdvanceVisit(Player player) {return false;}
-    protected boolean AdvanceVisit(Enemy enemy) {return false;}
-    protected boolean AttackVisit(Player player) {return false;}
-    protected boolean AttackVisit(Enemy enemy) {return false;}
+    public abstract boolean AttackAccept(Unit unit);
+    public abstract boolean AdvanceAccept(Unit unit);
+    public boolean AdvanceVisit(Player player) {return false;}
+    public boolean AdvanceVisit(Enemy enemy) {return false;}
+    public boolean AttackVisit(Player player) {return false;}
+    public boolean AttackVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
 }

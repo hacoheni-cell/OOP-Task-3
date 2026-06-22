@@ -1,6 +1,7 @@
 package Units;
+import Game.Position;
 
-public class Monster extends Enemy{
+public class Monster extends Enemy {
     protected int visionRange;
     protected String description;
 
@@ -15,7 +16,7 @@ public class Monster extends Enemy{
         return this.description;
     }
 
-
+    @Override
     public int GetRange(){
         return visionRange;
     }
