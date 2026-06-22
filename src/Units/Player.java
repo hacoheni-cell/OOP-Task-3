@@ -34,7 +34,8 @@ public abstract class Player extends Unit {
         return true;
     }
     public boolean AttackVisit(Enemy enemy){
-        return combatUtiles.Attack(this,enemy);
+        int res = combatUtiles.Attack(this,enemy);
+        return true;
     }
     public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);
