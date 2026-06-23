@@ -2,7 +2,6 @@ package Combat_System;
 
 import Units.Unit;
 
-import java.io.NotActiveException;
 import java.util.Random;
 
 public class DefaultCombat implements CombatSystem {
@@ -31,7 +30,22 @@ public class DefaultCombat implements CombatSystem {
         }
         return damage;
     }
-public int Attack(Unit attacker, Unit Defender) {
-        throw new NullPointerException();
-}
+    public int Attack(double abilityDamage, Unit defender, String attackerName) {
+        int defenceRoll = random.nextInt(defender.getDefencePoints() + 1);
+        int damageTaken = (int) abilityDamage - defenceRoll;
+
+        if (damageTaken > 0) {
+            double newHealth = defender.getHealthAmount() - damageTaken;
+            defender.setHealthAmount((int) newHealth);
+        }
+        else {
+            damageTaken = 0;
+        }
+
+        if (defender.getHealthAmount() <= 0) {
+            return -1;
+        }
+
+        return damageTaken;
+    }
 }

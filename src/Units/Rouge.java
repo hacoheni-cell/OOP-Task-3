@@ -1,20 +1,16 @@
 package Units;
 import Combat_System.CombatSystem;
 import Game.Position;
-import SpecialAbility.SpecialAbility;
-import SpecialAbility.FanOfKnives;
+import java.util.List;
 
 public class Rouge extends Player {
-    protected final Integer attackRange;
-    protected SpecialAbility specialA;
+    protected final Integer attackRange = 2;
     protected Integer cost;
     protected Integer currentEnergy;
-    public Rouge(String name, int healthPool, int attack, int defence, Position pos, SpecialAbility specialAbility, CombatSystem combat, Integer cost) {
+    public Rouge(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, Integer cost) {
         super(name, healthPool, attack, defence, pos,combat);
         this.cost = cost;
         this.currentEnergy = 100;
-        specialA = new FanOfKnives();
-        attackRange = specialAbility.GetRange();
     }
 
     public void LevelUp(){
@@ -24,14 +20,22 @@ public class Rouge extends Player {
     }
     //game tick is missing
     @Override
-    public int Cast() {
+    public int Cast(List<Unit> listOfUnits) {
         if(currentEnergy < cost) {
             throw new IllegalArgumentException("No enough energy for cast.");
         }
         currentEnergy -= cost;
-        //- For each enemy within range < 2, deal damage (reduce health value) equals to the
-        //rogue’s attack points (each enemy will try to defend itself).
+        for (Unit other :listOfUnits ) {
+            this.Attack(other);
+        }
         return 0;
+    }
+
+    public int Cast(Enemy enemy) {
+       return this.combatUtiles.Attack(enemy, attackPoints, "Rouge");
+    }
+    public void GameTick() {
+        currentEnergy = Math.min(currentEnergy + 10, 100);
     }
 
     @Override

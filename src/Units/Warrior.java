@@ -1,26 +1,29 @@
 package Units;
 import Combat_System.CombatSystem;
 import Game.Position;
-import SpecialAbility.SpecialAbility;
-import SpecialAbility.AvengersShiled;
+import java.util.List;
+import java.util.Random;
 
 public class Warrior extends Player {
-    protected final Integer attackRange;
-    protected SpecialAbility specialA;
+    protected final Integer attackRange = 3;
     protected Integer remainingCoolDown;
     protected Integer abilityCoolDown;
     public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int abilityCoolDown) {
         super(name, healthPool, attack, defence, pos,combat);
         remainingCoolDown = 0;
         this.abilityCoolDown = abilityCoolDown;
-        specialA = new AvengersShiled();
-        attackRange = specialA.GetRange();
     }
 
     @Override
-    public int Cast() {
+    public int Cast(List<Unit> listOfUnits) {
         if(remainingCoolDown == 0) {
-            int res = specialA.Cast();
+            if (listOfUnits == null || listOfUnits.size() == 0) {
+                return 0;
+            }
+            Random rand = new Random();
+            int randomIndex = rand.nextInt(listOfUnits.size());
+            Unit otherUnit = listOfUnits.get(randomIndex);
+            int res = this.Attack(otherUnit);
             this.remainingCoolDown = this.abilityCoolDown;
             SetHealthAmount( healthAmount + 10 * this.defencePoints);
             return res;
@@ -28,6 +31,11 @@ public class Warrior extends Player {
         else {
             throw new IllegalArgumentException("cannot cast because there is cooldown remain");
         }
+    }
+
+    public int Cast(Enemy enemy) {
+        double damage = healthAmount * (double)0.1;
+        return this.combatUtiles.Attack(enemy, damage, "Warrior");
     }
     public boolean decreaseCoolDown() {
         if (this.remainingCoolDown > 0) {
@@ -48,6 +56,11 @@ public class Warrior extends Player {
     @Override
     public int GetRange() {
         return attackRange;
+    }
+
+    @Override
+    public void GameTick() {
+        this.decreaseCoolDown();
     }
 
     @Override

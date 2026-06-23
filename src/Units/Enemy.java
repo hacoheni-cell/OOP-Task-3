@@ -26,7 +26,7 @@ public abstract class Enemy extends Unit {
         return true;
     }
     public boolean AttackVisit(Player p){
-        int res = combatUtiles.Attack(this,p);
+        int res = this.cast()
         return false;
     }
     public int getExperience() {
