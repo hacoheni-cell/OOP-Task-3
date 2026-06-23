@@ -11,14 +11,14 @@ public abstract class Unit {
     protected int defencePoints;
     protected Position position;
     protected CombatSystem combatUtiles;
-    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position){
+    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, CombatSystem combatUtiles){
         this.name = name;
         this.healthPool = healthPool;
         this.healthAmount = healthAmount;
         this.attackPoints = attackPoints;
         this.defencePoints = defencePoints;
         this.position = position;
-        combatUtiles = new DefaultCombat();
+        this.combatUtiles = combatUtiles;
     }
 
     public String getName() {

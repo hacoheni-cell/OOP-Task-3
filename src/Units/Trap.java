@@ -1,4 +1,5 @@
 package Units;
+import Combat_System.CombatSystem;
 import Game.Position;
 
 public class Trap extends Enemy {
@@ -9,8 +10,8 @@ public class Trap extends Enemy {
     protected int visionRange;
     protected String description;
 
-    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,int visionRange,String description) {
-        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position);
+    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,int visionRange,String description, CombatSystem combat) {
+        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position,combat );
         this.visibilityTime = visibilityTime;
         this.invisibilityTime = invisibilityTime;
         this.ticksCount = ticksCount;

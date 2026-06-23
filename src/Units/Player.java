@@ -7,7 +7,7 @@ public abstract class Player extends Unit {
     protected Integer playerLevel;
 
     public Player(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat){
-        super(name, healthPool, healthPool, attack, defence, pos);
+        super(name, healthPool, healthPool, attack, defence, pos, combat);
         experience = 0;
         playerLevel = 1;
 
