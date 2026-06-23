@@ -1,6 +1,5 @@
 package Units;
 import Combat_System.CombatSystem;
-import Combat_System.DefaultCombat;
 import Game.Position;
 
 public abstract class Unit {
@@ -83,6 +82,7 @@ public abstract class Unit {
     public boolean AttackVisit(Player player) {return false;}
     public boolean AttackVisit(Enemy enemy) {return false;}
     public abstract int GetRange();
+    public abstract void GameTick();
 
     public int getAttackPoints() {
         return attackPoints;

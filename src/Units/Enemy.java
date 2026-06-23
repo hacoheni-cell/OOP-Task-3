@@ -13,7 +13,7 @@ public abstract class Enemy extends Unit {
     public boolean AdvanceAccept(Unit unit){
         return unit.AdvanceVisit(this);
     }
-    public boolean AttackAccept(Unit unit){
+    public int AttackAccept(Unit unit){
         return unit.AttackVisit(this);
     }
 
@@ -27,7 +27,7 @@ public abstract class Enemy extends Unit {
         return true;
     }
     public boolean AttackVisit(Player p){
-        int res = combatUtiles.Attack(this,p);
+        int res = this.cast()
         return false;
     }
     public int getExperience() {

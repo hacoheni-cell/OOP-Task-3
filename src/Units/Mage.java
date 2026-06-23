@@ -1,12 +1,11 @@
 package Units;
 import Combat_System.CombatSystem;
 import Game.Position;
-import SpecialAbility.SpecialAbility;
-import SpecialAbility.Blizzard;
+import java.util.List;
+import java.util.Random;
 
 public class Mage extends Player {
     protected final Integer attackRange;
-    protected SpecialAbility specialA;
     protected Integer spellPower;
     protected Integer manaPool;
     protected Integer currentMana;
@@ -19,7 +18,6 @@ public class Mage extends Player {
         this.manaCost = manaCost;
         this.spellPower = spellPower;
         this.hitsCount = hitsCount;
-        specialA = new Blizzard(abilityRange);
         this.attackRange = abilityRange;
     }
     protected void SetSpellPower(int i) {
@@ -63,14 +61,29 @@ public class Mage extends Player {
 
     //game tick is missing
     @Override
-    public int Cast() {
+    public int Cast(List<Unit> listOfUnits) {
         int hits = 0;
         if( currentMana < manaCost ) {
             throw new IllegalArgumentException("mana is too low for cast.");
         }
         SetCurrentMana(currentMana - manaCost);
-        //another cast logic.
+        while(hits < hitsCount ) {
+            if (listOfUnits == null || listOfUnits.size() == 0) {
+                return 0;
+            }
+            Random rand = new Random();
+            int randomIndex = rand.nextInt(listOfUnits.size());
+            Unit otherUnit = listOfUnits.get(randomIndex);
+            this.Attack(otherUnit);
+            if(otherUnit.healthAmount == 0) {
+                listOfUnits.remove(otherUnit);
+            }
+            hits++;
+        }
         return 0;
+    }
+    public boolean Cast(Enemy enemy) {
+        return this.combatUtiles.Attack(enemy,this.spellPower,"Mage");
     }
 
     @Override
@@ -80,5 +93,10 @@ public class Mage extends Player {
     @Override
     public int GetRange() {
         return attackRange;
+    }
+
+    @Override
+    public void GameTick() {
+        SetCurrentMana(Math.min(manaPool,currentMana + playerLevel));
     }
 }
