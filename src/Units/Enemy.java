@@ -12,7 +12,7 @@ public abstract class Enemy extends Unit {
     public boolean AdvanceAccept(Unit unit){
         return unit.AdvanceVisit(this);
     }
-    public int AttackAccept(Unit unit){
+    public boolean AttackAccept(Unit unit){
         return unit.AttackVisit(this);
     }
 
@@ -26,7 +26,6 @@ public abstract class Enemy extends Unit {
         return true;
     }
     public boolean AttackVisit(Player p){
-        int res = this.cast()
         return false;
     }
     public int getExperience() {
@@ -34,5 +33,9 @@ public abstract class Enemy extends Unit {
     }
     public String toString(){
         return this.getName();
+    }
+    @Override
+    public String Description() {
+        return super.description() + String.format("\t\tExperience Value: %d", experience);
     }
 }

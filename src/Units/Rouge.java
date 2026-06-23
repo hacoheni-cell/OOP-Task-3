@@ -42,7 +42,8 @@ public class Rouge extends Player {
 
     @Override
     public String Description() {
-        return "place holder for Rouge description";
+        return super.description() + String.format("\t\tEnergy: %d/100",
+                currentEnergy);
     }
     @Override
     public int GetRange() {

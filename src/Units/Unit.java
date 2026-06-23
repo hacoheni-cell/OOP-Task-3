@@ -100,6 +100,11 @@ public abstract class Unit {
      healthAmount = newHealth;
     }
     public String description() {
-
+        return String.format("%s\t\tHealth: %s/%s\t\tAttack: %d\t\tDefense: %d",
+                name,
+                healthAmount,
+                healthPool,
+                attackPoints,
+                defencePoints);
     }
 }

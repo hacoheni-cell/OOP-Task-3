@@ -87,10 +87,6 @@ public class Mage extends Player {
     }
 
     @Override
-    public String Description() {
-        return "place holder for Mage description";
-    }
-    @Override
     public int GetRange() {
         return attackRange;
     }
@@ -98,5 +94,12 @@ public class Mage extends Player {
     @Override
     public void GameTick() {
         SetCurrentMana(Math.min(manaPool,currentMana + playerLevel));
+    }
+    @Override
+    public String Description() {
+        return super.description() + String.format("\t\tMana: %d/%d\t\tSpell Power: %d",
+                currentMana,
+                manaPool,
+                spellPower);
     }
 }

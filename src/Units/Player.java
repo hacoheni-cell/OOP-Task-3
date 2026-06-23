@@ -60,4 +60,12 @@ public abstract class Player extends Unit {
         return healthAmount <= 0;
     }
     public abstract int GetRange();
+    @Override
+    public String description() {
+        // 50 * level calculates the current experience threshold for the next level up [cite: 105]
+        return super.description() + String.format("\t\tLevel: %d\t\tExperience: %d/%d",
+                playerLevel,
+                experience,
+                50 * playerLevel);
+    }
 }
