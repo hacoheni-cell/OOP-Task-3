@@ -1,5 +1,6 @@
 package Units;
 import Combat_System.CombatSystem;
+import Game.Level;
 import Game.Position;
 
 public abstract class Enemy extends Unit {
@@ -35,4 +36,5 @@ public abstract class Enemy extends Unit {
     public String toString(){
         return this.getName();
     }
+    public abstract void processStep(Level currentLevel);
 }

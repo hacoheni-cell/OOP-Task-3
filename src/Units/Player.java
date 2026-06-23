@@ -52,7 +52,7 @@ public abstract class Player extends Unit {
             LevelUp();
         }
     }
-    public boolean isAlive(){
+    public boolean isDead(){
         return healthAmount <= 0;
     }
     public abstract int GetRange();

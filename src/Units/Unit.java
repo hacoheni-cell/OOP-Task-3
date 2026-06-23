@@ -99,4 +99,8 @@ public abstract class Unit {
     public void setHealthAmount(int newHealth) {
      healthAmount = newHealth;
     }
+
+    public boolean isDead() {
+        return healthAmount <=0;
+    }
 }
