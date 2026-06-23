@@ -99,4 +99,7 @@ public abstract class Unit {
     public void setHealthAmount(int newHealth) {
      healthAmount = newHealth;
     }
+    public String description() {
+
+    }
 }
