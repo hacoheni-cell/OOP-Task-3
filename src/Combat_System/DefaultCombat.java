@@ -30,22 +30,22 @@ public class DefaultCombat implements CombatSystem {
         }
         return damage;
     }
-    public int Attack(double abilityDamage, Unit defender, String attackerName) {
-        int defenceRoll = random.nextInt(defender.getDefencePoints() + 1);
-        int damageTaken = (int) abilityDamage - defenceRoll;
+    public boolean Attack(Unit otherUnit, double damage, String attackerName) {
+        int defenceRoll = random.nextInt(otherUnit.getDefencePoints() + 1);
+        int damageTaken = (int) damage - defenceRoll;
 
         if (damageTaken > 0) {
-            double newHealth = defender.getHealthAmount() - damageTaken;
-            defender.setHealthAmount((int) newHealth);
+            double newHealth = otherUnit.getHealthAmount() - damageTaken;
+            otherUnit.setHealthAmount((int) newHealth);
         }
         else {
             damageTaken = 0;
         }
 
-        if (defender.getHealthAmount() <= 0) {
-            return -1;
+        if (otherUnit.getHealthAmount() <= 0) {
+            return true;
         }
 
-        return damageTaken;
+        return false;
     }
 }

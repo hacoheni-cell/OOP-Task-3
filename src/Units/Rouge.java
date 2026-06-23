@@ -26,12 +26,14 @@ public class Rouge extends Player {
         }
         currentEnergy -= cost;
         for (Unit other :listOfUnits ) {
-            this.Attack(other);
+            if (!(listOfUnits == null || listOfUnits.size() == 0)) {
+                this.Attack(other);
+            }
         }
         return 0;
     }
 
-    public int Cast(Enemy enemy) {
+    public boolean Cast(Enemy enemy) {
        return this.combatUtiles.Attack(enemy, attackPoints, "Rouge");
     }
     public void GameTick() {

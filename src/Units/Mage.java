@@ -1,10 +1,8 @@
 package Units;
 import Combat_System.CombatSystem;
 import Game.Position;
-import SpecialAbility.SpecialAbility;
-import SpecialAbility.Blizzard;
-
 import java.util.List;
+import java.util.Random;
 
 public class Mage extends Player {
     protected final Integer attackRange;
@@ -69,10 +67,23 @@ public class Mage extends Player {
             throw new IllegalArgumentException("mana is too low for cast.");
         }
         SetCurrentMana(currentMana - manaCost);
-        while(hits < hitsCount && ) {
-
+        while(hits < hitsCount ) {
+            if (listOfUnits == null || listOfUnits.size() == 0) {
+                return 0;
+            }
+            Random rand = new Random();
+            int randomIndex = rand.nextInt(listOfUnits.size());
+            Unit otherUnit = listOfUnits.get(randomIndex);
+            this.Attack(otherUnit);
+            if(otherUnit.healthAmount == 0) {
+                listOfUnits.remove(otherUnit);
+            }
+            hits++;
         }
         return 0;
+    }
+    public boolean Cast(Enemy enemy) {
+        return this.combatUtiles.Attack(enemy,this.spellPower,"Mage");
     }
 
     @Override

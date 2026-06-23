@@ -39,7 +39,7 @@ public abstract class Player extends Unit {
         this.Cast(enemy);
     }
 
-    public abstract int Cast(Enemy enemy);
+    public abstract boolean Cast(Enemy enemy);
 
     public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);

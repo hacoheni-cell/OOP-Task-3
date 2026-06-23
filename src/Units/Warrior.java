@@ -23,17 +23,17 @@ public class Warrior extends Player {
             Random rand = new Random();
             int randomIndex = rand.nextInt(listOfUnits.size());
             Unit otherUnit = listOfUnits.get(randomIndex);
-            int res = this.Attack(otherUnit);
+            this.Attack(otherUnit);
             this.remainingCoolDown = this.abilityCoolDown;
             SetHealthAmount( healthAmount + 10 * this.defencePoints);
-            return res;
+            return 1;
         }
         else {
             throw new IllegalArgumentException("cannot cast because there is cooldown remain");
         }
     }
 
-    public int Cast(Enemy enemy) {
+    public boolean Cast(Enemy enemy) {
         double damage = healthAmount * (double)0.1;
         return this.combatUtiles.Attack(enemy, damage, "Warrior");
     }

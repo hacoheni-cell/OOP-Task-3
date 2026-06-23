@@ -72,7 +72,7 @@ public abstract class Unit {
     public boolean Advance(Unit other){
         return other.AdvanceAccept(this);
     }
-    public int Attack(Unit other){
+    public boolean Attack(Unit other){
         return other.AttackAccept(this);
     }
     public abstract boolean AttackAccept(Unit unit);
