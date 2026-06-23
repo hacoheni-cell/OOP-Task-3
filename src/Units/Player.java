@@ -2,6 +2,8 @@ package Units;
 import Combat_System.CombatSystem;
 import Game.Position;
 
+import java.util.List;
+
 public abstract class Player extends Unit {
     protected Integer experience;
     protected Integer playerLevel;
@@ -13,7 +15,7 @@ public abstract class Player extends Unit {
 
     }
 
-    public abstract int Cast();
+    public abstract int Cast(List<Unit> listOfUnits);
 
     public abstract String Description();
 
@@ -33,10 +35,12 @@ public abstract class Player extends Unit {
         System.out.println("place holder for player is alive and gained points? or 0 points");
         return true;
     }
-    public boolean AttackVisit(Enemy enemy){
-        int res = combatUtiles.Attack(this,enemy);
-        return true;
+    public boolean AttackVisit(Enemy enemy) {
+        this.Cast(enemy);
     }
+
+    public abstract boolean Cast(Enemy enemy);
+
     public void LevelUp(){
         SetExperience(experience - 50 * playerLevel);
         playerLevel++;
@@ -52,7 +56,7 @@ public abstract class Player extends Unit {
             LevelUp();
         }
     }
-    public boolean isAlive(){
+    public boolean isDead(){
         return healthAmount <= 0;
     }
     public abstract int GetRange();
