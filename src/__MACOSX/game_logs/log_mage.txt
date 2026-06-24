@@ -1,0 +1,437 @@
+PS C:\Users\TalBarami\Desktop\game> .\hw3.exe levels
+Select player:
+1. Jon Snow             Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+2. The Hound            Health: 400/400         Attack: 20              Defense: 6              Level: 1                Experience: 0/50                Cooldown: 0/5
+3. Melisandre           Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+4. Thoros of Myr                Health: 250/250         Attack: 25              Defense: 4              Level: 1                Experience: 0/50                Mana: 37/150            Spell Power: 20
+5. Arya Stark           Health: 150/150         Attack: 40              Defense: 2              Level: 1                Experience: 0/50                Energy: 100/100
+6. Bronn                Health: 250/250         Attack: 35              Defense: 3              Level: 1                Experience: 0/50                Energy: 100/100
+7. Ygritte              Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+3
+You have selected:
+Melisandre
+#############
+#@....#B...q#
+#.....#.....#
+#.....s.....#
+#s....Bk....#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+e
+Melisandre cast Blizzard.
+Bonus Trap rolled 0 defense points.
+Melisandre hit Bonus Trap for 15 ability damage.
+Bonus Trap died. Melisandre gained 250 experience
+Melisandre reached level 2: +20 Health, +8 Attack, +2 Defense
+                +50 maximum mana, +20 spell power
+Melisandre reached level 3: +30 Health, +12 Attack, +3 Defense
+                +75 maximum mana, +30 spell power
+Lannister Solider rolled 2 defense points.
+Melisandre hit Lannister Solider for 63 ability damage.
+Lannister Solider rolled 2 defense points.
+Melisandre hit Lannister Solider for 63 ability damage.
+Lannister Solider rolled 1 defense points.
+Melisandre hit Lannister Solider for 64 ability damage.
+Lannister Solider died. Melisandre gained 25 experience
+Lannister Solider rolled 1 defense points.
+Melisandre hit Lannister Solider for 64 ability damage.
+Lannister Solider died. Melisandre gained 25 experience
+Melisandre reached level 4: +40 Health, +16 Attack, +4 Defense
+                +100 maximum mana, +40 spell power
+#############
+#@....#B..q.#
+#.....#.....#
+#...........#
+#.......k...#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 369/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#...q.#
+#.....#.....#
+#.......k...#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 339/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#...q.#
+#.....#.....#
+#......k....#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 309/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#...q.#
+#.....#k....#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 279/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#..q..#
+#.....#.k...#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 249/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#..q..#
+#.....#.k...#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 219/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.k.q.#
+#.....#.....#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 189/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.....#
+#.....#.k.q.#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 159/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.....#
+#.....#.k...#
+#.........q.#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 129/525           Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.....#
+#.....#k....#
+#..........q#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 99/525            Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.....#
+#.....#k....#
+#..........q#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 69/525            Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#.....#
+#.....#....q#
+#......k....#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 39/525            Spell Power: 105
+e
+Melisandre cast Blizzard.
+#############
+#@....#B....#
+#.....#k...q#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 9/525             Spell Power: 105
+e
+Melisandre tried to cast Blizzard, but there was not enough mana: 9/30.
+#############
+#@....#.....#
+#.....#k....#
+#..........q#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 13/525            Spell Power: 105
+s
+#############
+#.....#.....#
+#@....#.k..q#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 17/525            Spell Power: 105
+d
+#############
+#.....#.....#
+#.@...#.k...#
+#..........q#
+#...........#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 21/525            Spell Power: 105
+s
+#############
+#.....#.k...#
+#.....#.....#
+#.@.........#
+#..........q#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 25/525            Spell Power: 105
+d
+#############
+#.....#..k..#
+#.....#.....#
+#..@........#
+#.........q.#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 29/525            Spell Power: 105
+d
+#############
+#.....#..k..#
+#.....#.....#
+#...@.......#
+#.........q.#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 33/525            Spell Power: 105
+d
+#############
+#.....#..k..#
+#.....#.....#
+#....@......#
+#.........q.#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 37/525            Spell Power: 105
+d
+#############
+#.....#.k...#
+#.....#.....#
+#.....@.....#
+#........q..#
+#############
+
+Melisandre              Health: 190/190         Attack: 41              Defense: 10             Level: 4                Experience: 0/200               Mana: 41/525            Spell Power: 105
+e
+Melisandre cast Blizzard.
+Bonus Trap rolled 0 defense points.
+Melisandre hit Bonus Trap for 105 ability damage.
+Bonus Trap died. Melisandre gained 250 experience
+Melisandre reached level 5: +50 Health, +20 Attack, +5 Defense
+                +125 maximum mana, +50 spell power
+Lannister Knight rolled 1 defense points.
+Melisandre hit Lannister Knight for 154 ability damage.
+Queen's Guard rolled 6 defense points.
+Melisandre hit Queen's Guard for 149 ability damage.
+Lannister Knight rolled 0 defense points.
+Melisandre hit Lannister Knight for 155 ability damage.
+Lannister Knight died. Melisandre gained 50 experience
+Queen's Guard rolled 7 defense points.
+Melisandre hit Queen's Guard for 148 ability damage.
+#############
+#.....#.....#
+#.....#.....#
+#.....@.....#
+#.......q...#
+#############
+
+Melisandre              Health: 240/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 173/650           Spell Power: 155
+d
+#############
+#.....#.....#
+#.....#.....#
+#......@q...#
+#...........#
+#############
+
+Melisandre              Health: 240/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 178/650           Spell Power: 155
+d
+Melisandre engaged in combat with Queen's Guard.
+Melisandre              Health: 240/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 178/650           Spell Power: 155
+Queen's Guard           Health: 103/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Melisandre rolled 35 attack points.
+Queen's Guard rolled 3 defense points.
+Melisandre dealt 32 damage to Queen's Guard.
+Queen's Guard engaged in combat with Melisandre.
+Queen's Guard           Health: 71/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Melisandre              Health: 240/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 183/650           Spell Power: 155
+Queen's Guard rolled 9 attack points.
+Melisandre rolled 0 defense points.
+Queen's Guard dealt 9 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#......@q...#
+#...........#
+#############
+
+Melisandre              Health: 231/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 183/650           Spell Power: 155
+d
+Melisandre engaged in combat with Queen's Guard.
+Melisandre              Health: 231/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 183/650           Spell Power: 155
+Queen's Guard           Health: 71/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Melisandre rolled 29 attack points.
+Queen's Guard rolled 8 defense points.
+Melisandre dealt 21 damage to Queen's Guard.
+Queen's Guard engaged in combat with Melisandre.
+Queen's Guard           Health: 50/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Melisandre              Health: 231/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 188/650           Spell Power: 155
+Queen's Guard rolled 18 attack points.
+Melisandre rolled 7 defense points.
+Queen's Guard dealt 11 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#......@q...#
+#...........#
+#############
+
+Melisandre              Health: 220/240         Attack: 61              Defense: 15             Level: 5                Experience: 100/250             Mana: 188/650           Spell Power: 155
+e
+Melisandre cast Blizzard.
+Queen's Guard rolled 5 defense points.
+Melisandre hit Queen's Guard for 150 ability damage.
+Queen's Guard died. Melisandre gained 100 experience
+#############
+#@....#M....#
+#.k.#####...#
+#q......Q...#
+#...q...B...#
+#############
+
+Melisandre              Health: 220/240         Attack: 61              Defense: 15             Level: 5                Experience: 200/250             Mana: 158/650           Spell Power: 155
+d
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 220/240         Attack: 61              Defense: 15             Level: 5                Experience: 200/250             Mana: 163/650           Spell Power: 155
+Lannister Knight rolled 10 attack points.
+Melisandre rolled 4 defense points.
+Lannister Knight dealt 6 damage to Melisandre.
+#############
+#.@...#M....#
+#qk.#####...#
+#...q...Q...#
+#.......B...#
+#############
+
+Melisandre              Health: 214/240         Attack: 61              Defense: 15             Level: 5                Experience: 200/250             Mana: 163/650           Spell Power: 155
+d
+#############
+#.k@..#M....#
+#.q.#####...#
+#...q...Q...#
+#...........#
+#############
+
+Melisandre              Health: 214/240         Attack: 61              Defense: 15             Level: 5                Experience: 200/250             Mana: 168/650           Spell Power: 155
+e
+Melisandre cast Blizzard.
+The Mountain rolled 0 defense points.
+Melisandre hit The Mountain for 155 ability damage.
+The Mountain rolled 18 defense points.
+Melisandre hit The Mountain for 137 ability damage.
+Lannister Knight rolled 3 defense points.
+Melisandre hit Lannister Knight for 152 ability damage.
+Lannister Knight rolled 1 defense points.
+Melisandre hit Lannister Knight for 154 ability damage.
+Lannister Knight died. Melisandre gained 50 experience
+Melisandre reached level 6: +60 Health, +24 Attack, +6 Defense
+                +150 maximum mana, +60 spell power
+The Mountain rolled 5 defense points.
+Melisandre hit The Mountain for 210 ability damage.
+#############
+#.q@..#M....#
+#...#####...#
+#...q...Q...#
+#...........#
+#############
+
+Melisandre              Health: 300/300         Attack: 85              Defense: 21             Level: 6                Experience: 0/300               Mana: 338/800           Spell Power: 215
+s
+#############
+#.....#M....#
+#.q@#####...#
+#...q.......#
+#...........#
+#############
+
+Melisandre              Health: 300/300         Attack: 85              Defense: 21             Level: 6                Experience: 0/300               Mana: 344/800           Spell Power: 215
+e
+Melisandre cast Blizzard.
+The Mountain rolled 14 defense points.
+Melisandre hit The Mountain for 201 ability damage.
+Bonus Trap rolled 0 defense points.
+Melisandre hit Bonus Trap for 215 ability damage.
+Bonus Trap died. Melisandre gained 250 experience
+Queen's Guard rolled 1 defense points.
+Melisandre hit Queen's Guard for 214 ability damage.
+Queen's Guard rolled 4 defense points.
+Melisandre hit Queen's Guard for 211 ability damage.
+Queen's Guard died. Melisandre gained 100 experience
+Melisandre reached level 7: +70 Health, +28 Attack, +7 Defense
+                +175 maximum mana, +70 spell power
+The Mountain rolled 24 defense points.
+Melisandre hit The Mountain for 261 ability damage.
+The Mountain shoots Melisandre for 60 damage
+Melisandre rolled 17 defense points.
+The Mountain hit Melisandre for 43 ability damage.
+Queen's Guard engaged in combat with Melisandre.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Melisandre              Health: 327/370         Attack: 113             Defense: 28             Level: 7                Experience: 50/350              Mana: 557/975           Spell Power: 285
+Queen's Guard rolled 16 attack points.
+Melisandre rolled 13 defense points.
+Queen's Guard dealt 3 damage to Melisandre.
+#############
+#.....#M....#
+#.q@#####...#
+#...........#
+#...........#
+#############
+
+Melisandre              Health: 324/370         Attack: 113             Defense: 28             Level: 7                Experience: 50/350              Mana: 557/975           Spell Power: 285
+e
+Melisandre cast Blizzard.
+The Mountain rolled 12 defense points.
+Melisandre hit The Mountain for 273 ability damage.
+The Mountain died. Melisandre gained 500 experience
+Melisandre reached level 8: +80 Health, +32 Attack, +8 Defense
+                +200 maximum mana, +80 spell power
+Queen's Guard rolled 6 defense points.
+Melisandre hit Queen's Guard for 359 ability damage.
+Queen's Trap rolled 0 defense points.
+Melisandre hit Queen's Trap for 365 ability damage.
+Queen's Trap died. Melisandre gained 100 experience
+Queen's Guard rolled 13 defense points.
+Melisandre hit Queen's Guard for 352 ability damage.
+Queen's Guard died. Melisandre gained 100 experience
+Melisandre reached level 9: +90 Health, +36 Attack, +9 Defense
+                +225 maximum mana, +90 spell power
+You won!

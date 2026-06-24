@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class DefaultCombat implements CombatSystem {
     private Random random = new Random();
+    public static final DefaultCombat INSTANCE = new DefaultCombat();
 
     @Override
     public int Combat(Unit attacker, Unit defender) {
