@@ -28,4 +28,7 @@ public abstract class Cell {
     public Unit getOccupant() {
         return null;
     }
+    public  char toChar() {
+        return tile;
+    }
 }

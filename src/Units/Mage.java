@@ -1,8 +1,6 @@
 package Units;
-
 import Combat_System.CombatSystem;
 import Game.Position;
-
 import java.util.List;
 import java.util.Random;
 
@@ -13,9 +11,8 @@ public class Mage extends Player {
     protected Integer currentMana;
     protected Integer manaCost;
     protected Integer hitsCount;
-
-    public Mage(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, Integer manaPool, Integer manaCost, Integer spellPower, Integer hitsCount, Integer abilityRange) {
-        super(name, healthPool, attack, defence, pos, combat);
+    public Mage(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, Integer manaPool, Integer manaCost, Integer spellPower, Integer hitsCount, Integer abilityRange,  char tileString) {
+        super(name, healthPool, attack, defence, pos, tileString, combat);
         this.manaPool = manaPool;
         currentMana = manaPool / 4;
         this.manaCost = manaCost;
@@ -23,11 +20,11 @@ public class Mage extends Player {
         this.hitsCount = hitsCount;
         this.attackRange = abilityRange;
     }
-
     protected void SetSpellPower(int i) {
-        if (i < 0) {
+        if ( i < 0){
             spellPower = 0;
-        } else {
+        }
+        else {
             spellPower = i;
         }
     }
@@ -35,17 +32,20 @@ public class Mage extends Player {
     protected void SetCurrentMana(int i) {
         if (i < 0) {
             currentMana = 0;
-        } else if (i > manaPool) {
+        }
+        else if ( i > manaPool) {
             currentMana = manaPool;
-        } else {
+        }
+        else {
             currentMana = i;
         }
     }
 
     protected void SetManaPool(int i) {
-        if (i < 0) {
+        if(i < 0) {
             manaPool = 0;
-        } else {
+        }
+        else {
             manaPool = i;
         }
     }
@@ -56,6 +56,7 @@ public class Mage extends Player {
         SetCurrentMana(currentMana + manaPool / 4);
         SetSpellPower(spellPower + 10 * playerLevel);
     }
+
 
 
     //game tick is missing
@@ -81,7 +82,6 @@ public class Mage extends Player {
         }
         return 0;
     }
-
     public boolean Cast(Enemy enemy) {
         return this.combatUtiles.Attack(enemy, this.spellPower, "Mage");
     }
@@ -91,7 +91,6 @@ public class Mage extends Player {
         return String.format("%s\t\tMana: %d/%d\t\tSpell Power: %d",
                 super.Description(), this.currentMana, this.manaPool, this.spellPower);
     }
-
     @Override
     public int GetRange() {
         return attackRange;

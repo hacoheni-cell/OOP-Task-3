@@ -46,7 +46,7 @@ public class Level {
     public List<Unit> getUnitsInRange(Position position, double range){
         return gameBoard.getUnitsInRange(position,range);
     }
-    private Level parseLevel(List<String> levelData, CombatSystem combatSystem) {
+    private void parseLevel(List<String> levelData, CombatSystem combatSystem) {
         int height = levelData.size();
         int width = levelData.get(0).length();
         this.gameBoard = new GameBoard(width, height);

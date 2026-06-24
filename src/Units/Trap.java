@@ -1,5 +1,4 @@
 package Units;
-
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
@@ -12,16 +11,15 @@ public class Trap extends Enemy {
     protected int ticksCount;
     protected boolean visible;
     protected int visionRange;
-    protected String description;
 
-    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, int visionRange, String description, CombatSystem combat) {
-        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, combat);
+
+    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,int visionRange,char tile, CombatSystem combat) {
+        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position, tile,combat );
         this.visibilityTime = visibilityTime;
         this.invisibilityTime = invisibilityTime;
         this.ticksCount = ticksCount;
         this.visible = visible;
         this.visionRange = visionRange;
-        this.description = description;
     }
 
     @Override

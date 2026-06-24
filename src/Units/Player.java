@@ -1,5 +1,4 @@
 package Units;
-
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
@@ -14,8 +13,8 @@ public abstract class Player extends Unit {
     protected Integer playerLevel;
     protected Map<String, Consumer<GameContext>> actions;
 
-    public Player(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat) {
-        super(name, healthPool, healthPool, attack, defence, pos, combat);
+    public Player(String name, int healthPool, int attack, int defence, Position pos, char tileString, CombatSystem combat){
+        super(name, healthPool, healthPool, attack, defence, pos, tileString, combat);
         experience = 0;
         playerLevel = 1;
         initializeActions();
@@ -59,11 +58,9 @@ public abstract class Player extends Unit {
     public boolean AdvanceAccept(Unit other) {
         return other.AdvanceVisit(this);
     }
-
     public boolean AttackAccept(Unit other) {
         return other.AttackVisit(this);
     }
-
     public boolean AdvanceVisit(Enemy enemy) {
         int res = this.combatUtiles.Combat(this, enemy);
         if (res == -1) {
@@ -73,7 +70,6 @@ public abstract class Player extends Unit {
         System.out.println("place holder for player is alive and gained points? or 0 points");
         return true;
     }
-
     public boolean AttackVisit(Enemy enemy) {
         return this.Cast(enemy);
     }
@@ -91,10 +87,18 @@ public abstract class Player extends Unit {
 
     public void SetExperience(int i) {
         experience = Math.max(i, 0);
-        if (experience >= 50 * playerLevel) {
+        if(experience >= 50 * playerLevel) {
             LevelUp();
         }
     }
-
+    public boolean isDead(){
+        return healthAmount <= 0;
+    }
     public abstract int GetRange();
+    public char toChar() {
+        if(isDead()) {
+            return 'X';
+        }
+        return this.tileString;
+    }
 }
