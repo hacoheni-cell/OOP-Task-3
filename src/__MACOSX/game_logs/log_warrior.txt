@@ -1,0 +1,2092 @@
+PS C:\Users\TalBarami\Desktop\game> .\hw3.exe levels
+Select player:
+1. Jon Snow             Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+2. The Hound            Health: 400/400         Attack: 20              Defense: 6              Level: 1                Experience: 0/50                Cooldown: 0/5
+3. Melisandre           Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+4. Thoros of Myr                Health: 250/250         Attack: 25              Defense: 4              Level: 1                Experience: 0/50                Mana: 37/150            Spell Power: 20
+5. Arya Stark           Health: 150/150         Attack: 40              Defense: 2              Level: 1                Experience: 0/50                Energy: 100/100
+6. Bronn                Health: 250/250         Attack: 35              Defense: 3              Level: 1                Experience: 0/50                Energy: 100/100
+7. Ygritte              Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+1
+You have selected:
+Jon Snow
+#############
+#@....#B...q#
+#.....#.....#
+#.....s.....#
+#s....Bk....#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+d
+#############
+#.@...#B...q#
+#.....#.....#
+#.....s.....#
+#.s...Bk....#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+s
+#############
+#.....#....q#
+#.@...#.....#
+#.s...s.....#
+#......k....#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+s
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 7 attack points.
+Lannister Solider rolled 2 defense points.
+Jon Snow dealt 5 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 75/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider rolled 4 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 2 damage to Jon Snow.
+#############
+#.....#.....#
+#.@...#....q#
+#.s..s.k....#
+#...........#
+#############
+
+Jon Snow                Health: 298/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 40.
+Lannister Solider rolled 1 defense points.
+Jon Snow hit Lannister Solider for 29 ability damage.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 46/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider rolled 2 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.@..s#...q.#
+#.s.....k...#
+#...........#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+s
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider               Health: 46/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 2 attack points.
+Lannister Solider rolled 0 defense points.
+Jon Snow dealt 2 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 44/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+Lannister Solider rolled 1 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.@.s.#....q#
+#.s.........#
+#.......k...#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+s
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+Lannister Solider               Health: 44/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 28 attack points.
+Lannister Solider rolled 1 defense points.
+Jon Snow dealt 27 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 1/3
+Lannister Solider rolled 0 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.@s..#....q#
+#.s.........#
+#.......k...#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 1/3
+e
+Jon Snow tried to cast Avenger's Shield, but there is a cooldown: 1.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider rolled 7 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Solider dealt 4 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 296/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider rolled 5 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 3 damage to Jon Snow.
+#############
+#.....#....q#
+#.@s..#.....#
+#.s.........#
+#......k....#
+#############
+
+Jon Snow                Health: 293/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 40.
+Lannister Solider rolled 2 defense points.
+Jon Snow hit Lannister Solider for 28 ability damage.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 52/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider rolled 2 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider rolled 1 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#....q#
+#.@s..#.....#
+#.s.........#
+#......k....#
+#############
+
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+e
+Jon Snow tried to cast Avenger's Shield, but there is a cooldown: 3.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 52/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+Lannister Solider rolled 3 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 3 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 297/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+Lannister Solider rolled 3 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 3 damage to Jon Snow.
+#############
+#.....#....q#
+#.@s..#.....#
+#.s.........#
+#.......k...#
+#############
+
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 2/3
+e
+Jon Snow tried to cast Avenger's Shield, but there is a cooldown: 2.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 52/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 1/3
+Lannister Solider rolled 4 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 4 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 1/3
+Lannister Solider rolled 0 attack points.
+Jon Snow rolled 1 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#...q.#
+#.@s..#.....#
+#.s.........#
+#.......k...#
+#############
+
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 1/3
+e
+Jon Snow tried to cast Avenger's Shield, but there is a cooldown: 1.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 52/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider rolled 5 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Solider dealt 2 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 288/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+Lannister Solider rolled 0 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.@s..#...q.#
+#.s.........#
+#......k....#
+#############
+
+Jon Snow                Health: 288/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 40.
+Lannister Solider rolled 0 defense points.
+Jon Snow hit Lannister Solider for 30 ability damage.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 22/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider rolled 7 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 5 damage to Jon Snow.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 295/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider rolled 3 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 1 damage to Jon Snow.
+#############
+#.....#.....#
+#.@s..#...q.#
+#.s....k....#
+#...........#
+#############
+
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+s
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 3/3
+Lannister Solider               Health: 17/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 28 attack points.
+Lannister Solider rolled 1 defense points.
+Jon Snow dealt 27 damage to Lannister Solider.
+Lannister Solider died. Jon Snow gained 25 experience
+#############
+#.....#B....#
+#.....#k.q..#
+#.@s........#
+#.....B.....#
+#############
+
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 2/3
+d
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 2/3
+Lannister Solider               Health: 22/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 6 attack points.
+Lannister Solider rolled 0 defense points.
+Jon Snow dealt 6 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 16/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 294/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 1/3
+Lannister Solider rolled 3 attack points.
+Jon Snow rolled 0 defense points.
+Lannister Solider dealt 3 damage to Jon Snow.
+#############
+#.....#..q..#
+#.....#k....#
+#.@s........#
+#...........#
+#############
+
+Jon Snow                Health: 291/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 1/3
+d
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 291/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 1/3
+Lannister Solider               Health: 16/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 15 attack points.
+Lannister Solider rolled 2 defense points.
+Jon Snow dealt 13 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 3/80            Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 291/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 0/3
+Lannister Solider rolled 3 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 1 damage to Jon Snow.
+#############
+#.....#..q..#
+#.....#.....#
+#.@s...k....#
+#...........#
+#############
+
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 0/3
+d
+Jon Snow engaged in combat with Lannister Solider.
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 0/3
+Lannister Solider               Health: 3/80            Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow rolled 2 attack points.
+Lannister Solider rolled 1 defense points.
+Jon Snow dealt 1 damage to Lannister Solider.
+Lannister Solider engaged in combat with Jon Snow.
+Lannister Solider               Health: 2/80            Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 0/3
+Lannister Solider rolled 2 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Solider dealt 0 damage to Jon Snow.
+#############
+#.....#...q.#
+#.....#.....#
+#.@s..k.....#
+#...........#
+#############
+
+Jon Snow                Health: 290/300         Attack: 30              Defense: 4              Level: 1                Experience: 25/50               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 40.
+Lannister Solider rolled 1 defense points.
+Jon Snow hit Lannister Solider for 29 ability damage.
+Lannister Solider died. Jon Snow gained 25 experience
+Jon Snow reached level 2: +30 Health, +12 Attack, +6 Defense
+#############
+#.....#....q#
+#.....#.....#
+#.@..k......#
+#...........#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+d
+#############
+#.....#.....#
+#.....#....q#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 27 attack points.
+Lannister Knight rolled 2 defense points.
+Jon Snow dealt 25 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 175/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+Lannister Knight rolled 13 attack points.
+Jon Snow rolled 9 defense points.
+Lannister Knight dealt 4 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#...q.#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 326/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 326/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+Lannister Knight                Health: 175/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 14 attack points.
+Lannister Knight rolled 3 defense points.
+Jon Snow dealt 11 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 164/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 326/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 0/3
+Lannister Knight rolled 0 attack points.
+Jon Snow rolled 7 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#..@k.....q.#
+#...........#
+#############
+
+Jon Snow                Health: 326/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 100.
+Lannister Knight rolled 1 defense points.
+Jon Snow hit Lannister Knight for 32 ability damage.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 132/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+Lannister Knight rolled 8 attack points.
+Jon Snow rolled 2 defense points.
+Lannister Knight dealt 6 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#...q.#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+Lannister Knight                Health: 132/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 12 attack points.
+Lannister Knight rolled 3 defense points.
+Jon Snow dealt 9 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 123/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+Lannister Knight rolled 4 attack points.
+Jon Snow rolled 4 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+#############
+#.....#...q.#
+#.....#.....#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+Lannister Knight                Health: 123/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 32 attack points.
+Lannister Knight rolled 3 defense points.
+Jon Snow dealt 29 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 94/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 324/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+Lannister Knight rolled 9 attack points.
+Jon Snow rolled 4 defense points.
+Lannister Knight dealt 5 damage to Jon Snow.
+#############
+#.....#...q.#
+#.....#.....#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 319/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 319/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 1/3
+Lannister Knight                Health: 94/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 36 attack points.
+Lannister Knight rolled 4 defense points.
+Jon Snow dealt 32 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 62/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 319/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 0/3
+Lannister Knight rolled 8 attack points.
+Jon Snow rolled 7 defense points.
+Lannister Knight dealt 1 damage to Jon Snow.
+#############
+#.....#....q#
+#.....#.....#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 318/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 100.
+Lannister Knight rolled 1 defense points.
+Jon Snow hit Lannister Knight for 32 ability damage.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 30/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+Lannister Knight rolled 3 attack points.
+Jon Snow rolled 6 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+#############
+#.....#B...q#
+#.....#.....#
+#..@k.......#
+#.....B.....#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 3/3
+Lannister Knight                Health: 30/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 13 attack points.
+Lannister Knight rolled 5 defense points.
+Jon Snow dealt 8 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 22/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+Lannister Knight rolled 2 attack points.
+Jon Snow rolled 6 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#....q#
+#..@k.......#
+#...........#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 0/100               Cooldown: 2/3
+Lannister Knight                Health: 22/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 39 attack points.
+Lannister Knight rolled 1 defense points.
+Jon Snow dealt 38 damage to Lannister Knight.
+Lannister Knight died. Jon Snow gained 50 experience
+#############
+#.....#.....#
+#.....#....q#
+#...@.......#
+#...........#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 50/100              Cooldown: 1/3
+d
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 50/100              Cooldown: 0/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 9 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#....q#
+#.....#.....#
+#....@......#
+#...........#
+#############
+
+Jon Snow                Health: 330/330         Attack: 42              Defense: 10             Level: 2                Experience: 50/100              Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 100.
+Bonus Trap rolled 0 defense points.
+Jon Snow hit Bonus Trap for 33 ability damage.
+Bonus Trap died. Jon Snow gained 250 experience
+Jon Snow reached level 3: +45 Health, +18 Attack, +9 Defense
+Jon Snow reached level 4: +60 Health, +24 Attack, +12 Defense
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 9 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#....q#
+#....@......#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+d
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 29 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#....q#
+#.....@.....#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+d
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 23 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#...q.#
+#......@....#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+d
+#############
+#.....#.....#
+#.....#..q..#
+#.......@...#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 310.
+Queen's Guard rolled 14 defense points.
+Jon Snow hit Queen's Guard for 29 ability damage.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Queen's Guard           Health: 371/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 27 attack points.
+Queen's Guard rolled 2 defense points.
+Jon Snow dealt 25 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard rolled 14 attack points.
+Jon Snow rolled 30 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 3 attack points.
+Queen's Guard rolled 12 defense points.
+Jon Snow dealt 0 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard rolled 17 attack points.
+Jon Snow rolled 28 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 39 attack points.
+Queen's Guard rolled 9 defense points.
+Jon Snow dealt 30 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 316/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+Queen's Guard rolled 9 attack points.
+Jon Snow rolled 17 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 310.
+Queen's Guard rolled 13 defense points.
+Jon Snow hit Queen's Guard for 30 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 286/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Queen's Guard rolled 11 attack points.
+Jon Snow rolled 14 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#.....B.....#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Queen's Guard           Health: 286/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 77 attack points.
+Queen's Guard rolled 1 defense points.
+Jon Snow dealt 76 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 210/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard rolled 6 attack points.
+Jon Snow rolled 29 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard           Health: 210/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 54 attack points.
+Queen's Guard rolled 2 defense points.
+Jon Snow dealt 52 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 158/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard rolled 14 attack points.
+Jon Snow rolled 28 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard           Health: 158/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 45 attack points.
+Queen's Guard rolled 6 defense points.
+Jon Snow dealt 39 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 119/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+Queen's Guard rolled 1 attack points.
+Jon Snow rolled 4 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 310.
+Queen's Guard rolled 14 defense points.
+Jon Snow hit Queen's Guard for 29 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 90/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Queen's Guard rolled 7 attack points.
+Jon Snow rolled 24 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 3/3
+Queen's Guard           Health: 90/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 47 attack points.
+Queen's Guard rolled 9 defense points.
+Jon Snow dealt 38 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 52/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard rolled 2 attack points.
+Jon Snow rolled 1 defense points.
+Queen's Guard dealt 1 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 434/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 434/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 2/3
+Queen's Guard           Health: 52/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 13 attack points.
+Queen's Guard rolled 4 defense points.
+Jon Snow dealt 9 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 43/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 434/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard rolled 4 attack points.
+Jon Snow rolled 2 defense points.
+Queen's Guard dealt 2 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 432/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+d
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 432/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 1/3
+Queen's Guard           Health: 43/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 31 attack points.
+Queen's Guard rolled 9 defense points.
+Jon Snow dealt 22 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 21/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 432/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+Queen's Guard rolled 9 attack points.
+Jon Snow rolled 0 defense points.
+Queen's Guard dealt 9 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.......@q..#
+#...........#
+#############
+
+Jon Snow                Health: 423/435         Attack: 84              Defense: 31             Level: 4                Experience: 50/200              Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 310.
+Queen's Guard rolled 9 defense points.
+Jon Snow hit Queen's Guard for 34 ability damage.
+Queen's Guard died. Jon Snow gained 100 experience
+#############
+#.....#.....#
+#.....#.....#
+#.......@...#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 3/3
+a
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 2/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 3 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#......@....#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 2/3
+a
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 1/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 5 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#.....#.....#
+#.....@.....#
+#...........#
+#############
+
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 1/3
+s
+Jon Snow engaged in combat with Bonus Trap.
+Jon Snow                Health: 435/435         Attack: 84              Defense: 31             Level: 4                Experience: 150/200             Cooldown: 1/3
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow rolled 47 attack points.
+Bonus Trap rolled 0 defense points.
+Jon Snow dealt 47 damage to Bonus Trap.
+Bonus Trap died. Jon Snow gained 250 experience
+Jon Snow reached level 5: +75 Health, +30 Attack, +15 Defense
+#############
+#@....#M....#
+#.k.#####...#
+#q......Q...#
+#...q...B...#
+#############
+
+Jon Snow                Health: 510/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+s
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 510/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+Lannister Knight rolled 12 attack points.
+Jon Snow rolled 3 defense points.
+Lannister Knight dealt 9 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+Queen's Guard rolled 11 attack points.
+Jon Snow rolled 33 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#@k.#####...#
+#q......Q...#
+#..q....B...#
+#############
+
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 52 attack points.
+Lannister Knight rolled 0 defense points.
+Jon Snow dealt 52 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 148/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+Lannister Knight rolled 12 attack points.
+Jon Snow rolled 14 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+Queen's Guard rolled 6 attack points.
+Jon Snow rolled 15 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#@k.#####...#
+#q.q....Q...#
+#...........#
+#############
+
+Jon Snow                Health: 501/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 460.
+Lannister Knight rolled 6 defense points.
+Jon Snow hit Lannister Knight for 45 ability damage.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 103/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 510/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 3/3
+Lannister Knight rolled 13 attack points.
+Jon Snow rolled 5 defense points.
+Lannister Knight dealt 8 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 3/3
+Queen's Guard rolled 10 attack points.
+Jon Snow rolled 25 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#@k.#####...#
+#qq.....Q...#
+#...........#
+#############
+
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 3/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 3/3
+Lannister Knight                Health: 103/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 22 attack points.
+Lannister Knight rolled 7 defense points.
+Jon Snow dealt 15 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 88/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 2/3
+Lannister Knight rolled 7 attack points.
+Jon Snow rolled 15 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 2/3
+Queen's Guard rolled 17 attack points.
+Jon Snow rolled 29 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#@k.#####...#
+#qq.........#
+#...........#
+#############
+
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 2/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 2/3
+Lannister Knight                Health: 88/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 63 attack points.
+Lannister Knight rolled 1 defense points.
+Jon Snow dealt 62 damage to Lannister Knight.
+Lannister Knight engaged in combat with Jon Snow.
+Lannister Knight                Health: 26/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 1/3
+Lannister Knight rolled 5 attack points.
+Jon Snow rolled 40 defense points.
+Lannister Knight dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 1/3
+Queen's Guard rolled 5 attack points.
+Jon Snow rolled 9 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.M...#
+#@k.#####...#
+#qq.........#
+#...........#
+#############
+
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 1/3
+d
+Jon Snow engaged in combat with Lannister Knight.
+Jon Snow                Health: 502/510         Attack: 114             Defense: 46             Level: 5                Experience: 200/250             Cooldown: 1/3
+Lannister Knight                Health: 26/200          Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Jon Snow rolled 78 attack points.
+Lannister Knight rolled 3 defense points.
+Jon Snow dealt 75 damage to Lannister Knight.
+Lannister Knight died. Jon Snow gained 50 experience
+Jon Snow reached level 6: +90 Health, +36 Attack, +18 Defense
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Guard rolled 16 attack points.
+Jon Snow rolled 21 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.M...#
+#q@.#####...#
+#.q.........#
+#...........#
+#############
+
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 640.
+Queen's Guard rolled 10 defense points.
+Jon Snow hit Queen's Guard for 50 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 350/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 12 attack points.
+Jon Snow rolled 5 defense points.
+Queen's Guard dealt 7 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 11 attack points.
+Jon Snow rolled 28 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.M...#
+#q@.#####...#
+#.q.........#
+#...........#
+#############
+
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+d
+#############
+#.....#M....#
+#.q@#####...#
+#.q.........#
+#...........#
+#############
+
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+s
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard rolled 9 attack points.
+Jon Snow rolled 16 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#...........#
+#############
+
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard           Health: 400/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 14 attack points.
+Queen's Guard rolled 0 defense points.
+Jon Snow dealt 14 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 386/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 593/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Guard rolled 11 attack points.
+Jon Snow rolled 8 defense points.
+Queen's Guard dealt 3 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#...........#
+#############
+
+Jon Snow                Health: 590/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 640.
+Queen's Guard rolled 10 defense points.
+Jon Snow hit Queen's Guard for 50 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 386/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 3 attack points.
+Jon Snow rolled 47 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#...........#
+#############
+
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard           Health: 386/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 50 attack points.
+Queen's Guard rolled 10 defense points.
+Jon Snow dealt 40 damage to Queen's Guard.
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 30 defense points.
+The Mountain hit Jon Snow for 30 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 570/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Guard rolled 19 attack points.
+Jon Snow rolled 48 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#...........#
+#############
+
+Jon Snow                Health: 570/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 570/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Guard           Health: 346/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 73 attack points.
+Queen's Guard rolled 2 defense points.
+Jon Snow dealt 71 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 275/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 570/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard rolled 11 attack points.
+Jon Snow rolled 10 defense points.
+Queen's Guard dealt 1 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#.......B...#
+#############
+
+Jon Snow                Health: 569/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 569/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard           Health: 275/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 74 attack points.
+Queen's Guard rolled 11 defense points.
+Jon Snow dealt 63 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 212/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 569/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Guard rolled 15 attack points.
+Jon Snow rolled 40 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#.q.#####...#
+#.q@........#
+#...........#
+#############
+
+Jon Snow                Health: 569/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+d
+#############
+#.....#M....#
+#..q#####...#
+#..q@...Q...#
+#...........#
+#############
+
+Jon Snow                Health: 569/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 640.
+Queen's Guard rolled 6 defense points.
+Jon Snow hit Queen's Guard for 54 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 212/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 15 attack points.
+Jon Snow rolled 2 defense points.
+Queen's Guard dealt 13 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#..q@...Q...#
+#...........#
+#############
+
+Jon Snow                Health: 587/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+d
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 25 defense points.
+The Mountain hit Jon Snow for 35 ability damage.
+#############
+#.....#M....#
+#..q#####...#
+#...q@..Q...#
+#...........#
+#############
+
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+d
+#############
+#.....#M....#
+#..q#####...#
+#....q@.....#
+#...........#
+#############
+
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+d
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 250/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Trap rolled 5 attack points.
+Jon Snow rolled 59 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 2 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+d
+Jon Snow engaged in combat with Queen's Trap.
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Trap            Health: 250/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow rolled 106 attack points.
+Queen's Trap rolled 5 defense points.
+Jon Snow dealt 101 damage to Queen's Trap.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 552/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Trap rolled 18 attack points.
+Jon Snow rolled 3 defense points.
+Queen's Trap dealt 15 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 212/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 537/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Guard rolled 0 attack points.
+Jon Snow rolled 18 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 537/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 58 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 537/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 640.
+The Mountain rolled 11 defense points.
+Jon Snow hit The Mountain for 49 ability damage.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Trap rolled 7 attack points.
+Jon Snow rolled 2 defense points.
+Queen's Trap dealt 5 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 212/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 595/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 0 attack points.
+Jon Snow rolled 28 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 595/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 6 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 595/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 595/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard           Health: 212/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 6 attack points.
+Queen's Guard rolled 5 defense points.
+Jon Snow dealt 1 damage to Queen's Guard.
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 52 defense points.
+The Mountain hit Jon Snow for 8 ability damage.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 587/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Trap rolled 26 attack points.
+Jon Snow rolled 36 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 211/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 587/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Guard rolled 12 attack points.
+Jon Snow rolled 3 defense points.
+Queen's Guard dealt 9 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 42 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Guard           Health: 211/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 38 attack points.
+Queen's Guard rolled 11 defense points.
+Jon Snow dealt 27 damage to Queen's Guard.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Trap rolled 0 attack points.
+Jon Snow rolled 56 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 184/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard rolled 13 attack points.
+Jon Snow rolled 44 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 61 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard           Health: 184/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 81 attack points.
+Queen's Guard rolled 2 defense points.
+Jon Snow dealt 79 damage to Queen's Guard.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Trap rolled 17 attack points.
+Jon Snow rolled 26 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Queen's Guard rolled 1 attack points.
+Jon Snow rolled 6 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 43 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 578/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 640.
+The Mountain rolled 20 defense points.
+Jon Snow hit The Mountain for 40 ability damage.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Trap rolled 10 attack points.
+Jon Snow rolled 37 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Guard rolled 18 attack points.
+Jon Snow rolled 48 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 38 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#.......B...#
+#############
+
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+d
+Jon Snow engaged in combat with Queen's Trap.
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 3/3
+Queen's Trap            Health: 149/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow rolled 36 attack points.
+Queen's Trap rolled 0 defense points.
+Jon Snow dealt 36 damage to Queen's Trap.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 113/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Trap rolled 2 attack points.
+Jon Snow rolled 34 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Guard rolled 10 attack points.
+Jon Snow rolled 47 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 10 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+d
+Jon Snow engaged in combat with Queen's Trap.
+Jon Snow                Health: 600/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 2/3
+Queen's Trap            Health: 113/250         Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow rolled 73 attack points.
+Queen's Trap rolled 4 defense points.
+Jon Snow dealt 69 damage to Queen's Trap.
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 0 defense points.
+The Mountain hit Jon Snow for 60 ability damage.
+Queen's Trap engaged in combat with Jon Snow.
+Queen's Trap            Health: 44/250          Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Trap rolled 25 attack points.
+Jon Snow rolled 30 defense points.
+Queen's Trap dealt 0 damage to Jon Snow.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Guard rolled 7 attack points.
+Jon Snow rolled 15 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 5 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+d
+Jon Snow engaged in combat with Queen's Trap.
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 0/300               Cooldown: 1/3
+Queen's Trap            Health: 44/250          Attack: 50              Defense: 10             Experience Value: 100
+Jon Snow rolled 149 attack points.
+Queen's Trap rolled 5 defense points.
+Jon Snow dealt 144 damage to Queen's Trap.
+Queen's Trap died. Jon Snow gained 100 experience
+Bonus Trap engaged in combat with Jon Snow.
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 100/300             Cooldown: 0/3
+Bonus Trap rolled 0 attack points.
+Jon Snow rolled 58 defense points.
+Bonus Trap dealt 0 damage to Jon Snow.
+#############
+#.....#M....#
+#..q#####...#
+#......q@...#
+#...........#
+#############
+
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 100/300             Cooldown: 0/3
+s
+Jon Snow engaged in combat with Bonus Trap.
+Jon Snow                Health: 540/600         Attack: 150             Defense: 64             Level: 6                Experience: 100/300             Cooldown: 0/3
+Bonus Trap              Health: 1/1             Attack: 1               Defense: 1              Experience Value: 250
+Jon Snow rolled 38 attack points.
+Bonus Trap rolled 0 defense points.
+Jon Snow dealt 38 damage to Bonus Trap.
+Bonus Trap died. Jon Snow gained 250 experience
+Jon Snow reached level 7: +105 Health, +42 Attack, +21 Defense
+#############
+#.....#M....#
+#..q#####...#
+#...........#
+#......q@...#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 50/350              Cooldown: 0/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 50/350              Cooldown: 0/3
+Queen's Guard           Health: 105/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 116 attack points.
+Queen's Guard rolled 6 defense points.
+Jon Snow dealt 110 damage to Queen's Guard.
+Queen's Guard died. Jon Snow gained 100 experience
+#############
+#.....#M....#
+#..q#####...#
+#...........#
+#......@....#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+a
+#############
+#.....#M....#
+#..q#####...#
+#...........#
+#.....@.....#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+w
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 11 defense points.
+The Mountain hit Jon Snow for 49 ability damage.
+#############
+#.....#M....#
+#..q#####...#
+#.....@.....#
+#...........#
+#############
+
+Jon Snow                Health: 656/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 15 defense points.
+Jon Snow hit The Mountain for 55 ability damage.
+#############
+#.....#M....#
+#..q#####...#
+#.....@.....#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+d
+#############
+#.....#M....#
+#..q#####...#
+#......@....#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+d
+#############
+#.....#M....#
+#...#####...#
+#..q....@...#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+d
+#############
+#.....#M....#
+#...#####...#
+#.q......@..#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+w
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 42 defense points.
+The Mountain hit Jon Snow for 18 ability damage.
+#############
+#.....#M....#
+#...#####@..#
+#q..........#
+#...........#
+#############
+
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+w
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#q..........#
+#############
+
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain            Health: 856/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 105 attack points.
+The Mountain rolled 9 defense points.
+Jon Snow dealt 96 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 760/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain rolled 5 attack points.
+Jon Snow rolled 44 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#q..........#
+#############
+
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain            Health: 760/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 61 attack points.
+The Mountain rolled 21 defense points.
+Jon Snow dealt 40 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 720/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain rolled 41 attack points.
+Jon Snow rolled 54 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#.q.........#
+#############
+
+Jon Snow                Health: 687/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 12 defense points.
+Jon Snow hit The Mountain for 58 ability damage.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 662/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+The Mountain rolled 0 attack points.
+Jon Snow rolled 72 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#.q.........#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+The Mountain            Health: 662/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 33 attack points.
+The Mountain rolled 24 defense points.
+Jon Snow dealt 9 damage to The Mountain.
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 56 defense points.
+The Mountain hit Jon Snow for 4 ability damage.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#.q.........#
+#############
+
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+The Mountain            Health: 653/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 0 attack points.
+The Mountain rolled 0 defense points.
+Jon Snow dealt 0 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 653/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+The Mountain rolled 19 attack points.
+Jon Snow rolled 81 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#..q........#
+#############
+
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+The Mountain            Health: 653/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 155 attack points.
+The Mountain rolled 11 defense points.
+Jon Snow dealt 144 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 509/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain rolled 2 attack points.
+Jon Snow rolled 73 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#...q.......#
+#############
+
+Jon Snow                Health: 701/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 7 defense points.
+Jon Snow hit The Mountain for 63 ability damage.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 446/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+The Mountain rolled 30 attack points.
+Jon Snow rolled 37 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...........#
+#...q.......#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+The Mountain            Health: 446/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 85 attack points.
+The Mountain rolled 21 defense points.
+Jon Snow dealt 64 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 382/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+The Mountain rolled 48 attack points.
+Jon Snow rolled 67 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#...q.......#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+The Mountain            Health: 382/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 85 attack points.
+The Mountain rolled 1 defense points.
+Jon Snow dealt 84 damage to The Mountain.
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 79 defense points.
+The Mountain hit Jon Snow for 0 ability damage.
+#############
+#.....#.M@..#
+#...#####...#
+#..q........#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+a
+Jon Snow engaged in combat with The Mountain.
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+The Mountain            Health: 298/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow rolled 145 attack points.
+The Mountain rolled 6 defense points.
+Jon Snow dealt 139 damage to The Mountain.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 159/1000                Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+The Mountain rolled 28 attack points.
+Jon Snow rolled 46 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#..q........#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 2 defense points.
+Jon Snow hit The Mountain for 68 ability damage.
+The Mountain engaged in combat with Jon Snow.
+The Mountain            Health: 91/1000         Attack: 60              Defense: 25             Experience Value: 500           Vision Range: 6
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+The Mountain rolled 3 attack points.
+Jon Snow rolled 65 defense points.
+The Mountain dealt 0 damage to Jon Snow.
+#############
+#.....#.M@..#
+#...#####...#
+#..q........#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+s
+#############
+#.....#.M...#
+#...#####@..#
+#..q........#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+s
+#############
+#.....#.M...#
+#..q#####...#
+#........@..#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+a
+The Mountain shoots Jon Snow for 60 damage
+Jon Snow rolled 68 defense points.
+The Mountain hit Jon Snow for 0 ability damage.
+#############
+#.....#.M...#
+#..q#####...#
+#.......@...#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 23 defense points.
+Jon Snow hit The Mountain for 47 ability damage.
+#############
+#.....#.M...#
+#..q#####...#
+#.......@...#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 3/3
+a
+#############
+#.....#.M...#
+#..q#####...#
+#......@....#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 2/3
+a
+#############
+#.....#.M...#
+#..q#####...#
+#.....@.....#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 1/3
+a
+#############
+#.....#M....#
+#..q#####...#
+#....@......#
+#...........#
+#############
+
+Jon Snow                Health: 705/705         Attack: 192             Defense: 85             Level: 7                Experience: 150/350             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 850.
+The Mountain rolled 1 defense points.
+Jon Snow hit The Mountain for 69 ability damage.
+The Mountain died. Jon Snow gained 500 experience
+Jon Snow reached level 8: +120 Health, +48 Attack, +24 Defense
+#############
+#.....#.....#
+#..q#####...#
+#....@......#
+#...........#
+#############
+
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 3/3
+w
+#############
+#.....#.....#
+#..q#####...#
+#....@......#
+#...........#
+#############
+
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 2/3
+a
+#############
+#.....#.....#
+#...#####...#
+#..q@.......#
+#...........#
+#############
+
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 1/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 1/3
+Queen's Guard           Health: 246/400         Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 176 attack points.
+Queen's Guard rolled 3 defense points.
+Jon Snow dealt 173 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 73/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+Queen's Guard rolled 4 attack points.
+Jon Snow rolled 100 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#...#####...#
+#..q@.......#
+#...........#
+#############
+
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+Queen's Guard           Health: 73/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 1 attack points.
+Queen's Guard rolled 14 defense points.
+Jon Snow dealt 0 damage to Queen's Guard.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 73/400          Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+Queen's Guard rolled 14 attack points.
+Jon Snow rolled 92 defense points.
+Queen's Guard dealt 0 damage to Jon Snow.
+#############
+#.....#.....#
+#...#####...#
+#..q@.......#
+#...........#
+#############
+
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+e
+Jon Snow used Avenger's Shield, healing for 1090.
+Queen's Guard rolled 13 defense points.
+Jon Snow hit Queen's Guard for 69 ability damage.
+Queen's Guard engaged in combat with Jon Snow.
+Queen's Guard           Health: 4/400           Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow                Health: 825/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 3/3
+Queen's Guard rolled 12 attack points.
+Jon Snow rolled 11 defense points.
+Queen's Guard dealt 1 damage to Jon Snow.
+#############
+#.....#.....#
+#...#####...#
+#..q@.......#
+#...........#
+#############
+
+Jon Snow                Health: 824/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 3/3
+d
+#############
+#.....#.....#
+#...#####...#
+#...q@......#
+#...........#
+#############
+
+Jon Snow                Health: 824/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 2/3
+d
+#############
+#.....#.....#
+#...#####...#
+#....q@.....#
+#...........#
+#############
+
+Jon Snow                Health: 824/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 1/3
+d
+#############
+#.....#.....#
+#...#####...#
+#.....q@....#
+#...........#
+#############
+
+Jon Snow                Health: 824/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+a
+Jon Snow engaged in combat with Queen's Guard.
+Jon Snow                Health: 824/825         Attack: 240             Defense: 109            Level: 8                Experience: 300/400             Cooldown: 0/3
+Queen's Guard           Health: 4/400           Attack: 20              Defense: 15             Experience Value: 100           Vision Range: 5
+Jon Snow rolled 130 attack points.
+Queen's Guard rolled 8 defense points.
+Jon Snow dealt 122 damage to Queen's Guard.
+Queen's Guard died. Jon Snow gained 100 experience
+Jon Snow reached level 9: +135 Health, +54 Attack, +27 Defense
+You won!
