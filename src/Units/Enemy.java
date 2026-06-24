@@ -1,40 +1,52 @@
 package Units;
+
 import Combat_System.CombatSystem;
-import Game.Level;
+import Game.GameContext;
 import Game.Position;
+import Game.MessageCallback;
 
 public abstract class Enemy extends Unit {
     protected int experience;
-    public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, CombatSystem combatUtiles){
+
+    public Enemy(int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, CombatSystem combatUtiles) {
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position, combatUtiles);
         this.experience = experience;
     }
 
-    public boolean AdvanceAccept(Unit unit){
+    public boolean AdvanceAccept(Unit unit) {
         return unit.AdvanceVisit(this);
     }
-    public int AttackAccept(Unit unit){
+
+    public boolean AttackAccept(Unit unit) {
         return unit.AttackVisit(this);
     }
 
-    public boolean AdvanceVisit(Player p){
-        int res = combatUtiles.Combat(this,p);
+    public boolean AdvanceVisit(Player p) {
+        int res = combatUtiles.Combat(this, p);
         if (res == -1) {
-            System.out.println("Place holder for player is dead.");
+            MessageCallback.send("Player is dead.");
             return false;
         }
-        System.out.println("place holder for player is alive and gained points? or 0 points");
+        MessageCallback.send("Combat occurred.");
         return true;
     }
-    public boolean AttackVisit(Player p){
-        int res = this.cast()
-        return false;
+    @Override
+    public String Description() {
+        return super.Description() + String.format("\t\tExperience: %d", this.experience);
     }
+    public boolean AttackVisit(Player p) {
+        this.cast(p);
+        return true;
+    }
+
     public int getExperience() {
         return experience;
     }
-    public String toString(){
+
+    public String toString() {
         return this.getName();
     }
-    public abstract void processStep(Level currentLevel);
+
+    public abstract void cast(Unit unit);
+    public abstract void takeTurn(GameContext gameContext);
 }

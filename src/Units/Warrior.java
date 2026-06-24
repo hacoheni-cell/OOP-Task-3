@@ -65,6 +65,7 @@ public class Warrior extends Player {
 
     @Override
     public String Description() {
-        return "place holder for Warrior description";
+        return String.format("%s\t\tCooldown: %d/%d",
+                super.Description(), this.remainingCoolDown, this.abilityCoolDown);
     }
 }
