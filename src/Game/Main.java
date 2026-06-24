@@ -26,7 +26,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         MessageCallback printer = (msg) -> System.out.println(msg);
         InputCallback reader = () -> scanner.nextLine();
-        GameController controller = new GameController(printer, reader, levels);
+        GameController controller = new GameController(printer, reader, levels, combatSystem);
         controller.start();
         scanner.close();
     }

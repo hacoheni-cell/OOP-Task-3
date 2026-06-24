@@ -7,10 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
 
-public class Level {
+public class Level implements GameContext{
     private List<Enemy> enemies;
     private GameBoard gameBoard;
     private Position playerInitalPosition;
+    private Player player;
 
     public Level(List<String> levelData, CombatSystem combatSys) {
         parseLevel(levelData,combatSys);
@@ -33,7 +34,7 @@ public class Level {
         while (iterator.hasNext()) {
             Unit enemy = iterator.next();
             if (enemy.isDead()) {
-                Position deadEnemyPos = enemy.getPosition();
+                Position deadEnemyPos = enemy.getPos();
                 Floor emptyFloor = new Floor(deadEnemyPos, null);
                 gameBoard.setCell(deadEnemyPos.getX(), deadEnemyPos.getY(), emptyFloor);
                 iterator.remove();
@@ -46,6 +47,12 @@ public class Level {
     public List<Unit> getUnitsInRange(Position position, double range){
         return gameBoard.getUnitsInRange(position,range);
     }
+
+    @Override
+    public Position getPlayerPos() {
+        return player.getPos();
+    }
+
     private void parseLevel(List<String> levelData, CombatSystem combatSystem) {
         int height = levelData.size();
         int width = levelData.get(0).length();
@@ -87,5 +94,8 @@ public class Level {
     public void setPlayerInInitPos(Player currentPlayer) {
         Floor floor = new Floor(playerInitalPosition,currentPlayer);
         gameBoard.setCell(playerInitalPosition.getX(),playerInitalPosition.getY(),floor);
+    }
+    public void setPlayer(Player player) {
+        this.player = player;
     }
 }
