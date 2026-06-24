@@ -2,9 +2,8 @@ package Game;
 
 import java.util.List;
 import java.util.Scanner;
-
-import Game.Level;
 import Units.Player;
+import Units.Unit;
 
 public class GameFlow {
     private Player player;
@@ -40,13 +39,13 @@ public class GameFlow {
             System.out.println(player.describe());
 
             String input = scanner.nextLine();
-            player.processInput(input);
+            player.processInput(input, level);
 
-            for (Enemy enemy : level.getEnemies()) {
+            for (Unit enemy : level.getEnemies()) {
                 if (player.isDead()) {
                     break;
                 }
-                enemy.takeTurn(player);
+                enemy.takeTurn(level);
             }
 
             level.removeDeadEnemies();
