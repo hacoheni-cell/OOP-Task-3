@@ -38,14 +38,14 @@ public class GameController {
         for (Level level : levels) {
             if (currentPlayer.isDead()) {
                PlayerDied();
-               break;
+               return;
             }
             playLevel(level);
         }
 
         if (currentPlayer.isDead()) {
             PlayerDied();
-            break;
+            return;
         }
         else {
             messageSender.send("You won!");
@@ -88,11 +88,17 @@ public class GameController {
             for (Enemy enemy : level.getEnemies()) {
                 if (currentPlayer.isDead()) {
                     PlayerDied();
-                    break;
+                    return;
                 }
                 enemy.takeTurn(currentPlayer);
             }
             level.removeDeadEnemies();
+        }
+    }
+    private void PlayerDied() {
+        messageSender.send("You have been defeated! Game Over.");
+        if (currentPlayer != null) {
+            currentPlayer.setName("X");
         }
     }
 }

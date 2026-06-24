@@ -10,7 +10,8 @@ public abstract class Unit {
     protected int defencePoints;
     protected Position position;
     protected CombatSystem combatUtiles;
-    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, CombatSystem combatUtiles){
+    char tileString;
+    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, char tileString, CombatSystem combatUtiles){
         this.name = name;
         this.healthPool = healthPool;
         this.healthAmount = healthAmount;
@@ -18,6 +19,7 @@ public abstract class Unit {
         this.defencePoints = defencePoints;
         this.position = position;
         this.combatUtiles = combatUtiles;
+        this.tileString = tileString;
     }
 
     public String getName() {
@@ -102,5 +104,8 @@ public abstract class Unit {
 
     public boolean isDead() {
         return healthAmount <=0;
+    }
+    public char toChar() {
+        return this.tileString;
     }
 }

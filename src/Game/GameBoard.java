@@ -57,4 +57,15 @@ public class GameBoard {
 
         return units;
     }
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        for (int y = 0; y < grid.length; y++) {
+            for (int x = 0; x < grid[y].length; x++) {
+                sb.append(grid[y][x].toString());
+            }
+        }
+
+        return sb.toString();
+    }
 }

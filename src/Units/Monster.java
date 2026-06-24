@@ -5,12 +5,10 @@ import Game.Position;
 
 public class Monster extends Enemy {
     protected int visionRange;
-    protected String description;
 
-    public Monster(int visionRange,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,String description, CombatSystem combatUtiles){
-        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position, combatUtiles);
+    public Monster(int visionRange,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,  char tileString, CombatSystem combatUtiles){
+        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position, combatUtiles, tileString);
         this.visionRange = visionRange;
-        this.description = description;
     }
 
     @Override

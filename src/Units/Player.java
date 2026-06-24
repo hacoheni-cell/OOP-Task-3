@@ -8,8 +8,8 @@ public abstract class Player extends Unit {
     protected Integer experience;
     protected Integer playerLevel;
 
-    public Player(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat){
-        super(name, healthPool, healthPool, attack, defence, pos, combat);
+    public Player(String name, int healthPool, int attack, int defence, Position pos, char tileString, CombatSystem combat){
+        super(name, healthPool, healthPool, attack, defence, pos, tileString, combat);
         experience = 0;
         playerLevel = 1;
 
@@ -60,4 +60,10 @@ public abstract class Player extends Unit {
         return healthAmount <= 0;
     }
     public abstract int GetRange();
+    public char toChar() {
+        if(isDead()) {
+            return 'X';
+        }
+        return this.tileString;
+    }
 }

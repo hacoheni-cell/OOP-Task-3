@@ -7,8 +7,8 @@ public class Rouge extends Player {
     protected final Integer attackRange = 2;
     protected Integer cost;
     protected Integer currentEnergy;
-    public Rouge(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, Integer cost) {
-        super(name, healthPool, attack, defence, pos,combat);
+    public Rouge(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, char tileString, Integer cost) {
+        super(name, healthPool, attack, defence, pos, tileString, combat);
         this.cost = cost;
         this.currentEnergy = 100;
     }
