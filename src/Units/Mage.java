@@ -50,7 +50,7 @@ public class Mage extends Player {
         }
     }
 
-    public void LevelUp(){
+    public void LevelUp() {
         super.LevelUp();
         SetManaPool(manaPool + 25 * playerLevel);
         SetCurrentMana(currentMana + manaPool / 4);
@@ -63,11 +63,11 @@ public class Mage extends Player {
     @Override
     public int Cast(List<Unit> listOfUnits) {
         int hits = 0;
-        if( currentMana < manaCost ) {
+        if (currentMana < manaCost) {
             throw new IllegalArgumentException("mana is too low for cast.");
         }
         SetCurrentMana(currentMana - manaCost);
-        while(hits < hitsCount ) {
+        while (hits < hitsCount) {
             if (listOfUnits == null || listOfUnits.size() == 0) {
                 return 0;
             }
@@ -75,7 +75,7 @@ public class Mage extends Player {
             int randomIndex = rand.nextInt(listOfUnits.size());
             Unit otherUnit = listOfUnits.get(randomIndex);
             this.Attack(otherUnit);
-            if(otherUnit.healthAmount == 0) {
+            if (otherUnit.healthAmount == 0) {
                 listOfUnits.remove(otherUnit);
             }
             hits++;
@@ -83,12 +83,13 @@ public class Mage extends Player {
         return 0;
     }
     public boolean Cast(Enemy enemy) {
-        return this.combatUtiles.Attack(enemy,this.spellPower,"Mage");
+        return this.combatUtiles.Attack(enemy, this.spellPower, "Mage");
     }
 
     @Override
     public String Description() {
-        return "place holder for Mage description";
+        return String.format("%s\t\tMana: %d/%d\t\tSpell Power: %d",
+                super.Description(), this.currentMana, this.manaPool, this.spellPower);
     }
     @Override
     public int GetRange() {
@@ -97,6 +98,6 @@ public class Mage extends Player {
 
     @Override
     public void GameTick() {
-        SetCurrentMana(Math.min(manaPool,currentMana + playerLevel));
+        SetCurrentMana(Math.min(manaPool, currentMana + playerLevel));
     }
 }

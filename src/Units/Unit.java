@@ -69,7 +69,10 @@ public abstract class Unit {
         }
     }
 
-    public abstract String Description();
+    public String Description() {
+        return String.format("%s\t\tHealth: %d/%d\t\tAttack: %d\t\tDefence: %d",
+                name, healthAmount, healthPool, attackPoints, defencePoints);
+    }
 
     public boolean Advance(Unit other){
         return other.AdvanceAccept(this);
@@ -99,11 +102,16 @@ public abstract class Unit {
     }
 
     public void setHealthAmount(int newHealth) {
-     healthAmount = newHealth;
+        healthAmount = newHealth;
     }
-
+    public void setPosition(Position position) {
+        this.position = position;
+    }
     public boolean isDead() {
         return healthAmount <=0;
+    }
+    public Position getPos() {
+        return position;
     }
     public char toChar() {
         return this.tileString;

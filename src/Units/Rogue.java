@@ -3,7 +3,7 @@ import Combat_System.CombatSystem;
 import Game.Position;
 import java.util.List;
 
-public class Rouge extends Player {
+public class Rogue extends Player {
     protected final Integer attackRange = 2;
     protected Integer cost;
     protected Integer currentEnergy;
@@ -34,7 +34,7 @@ public class Rouge extends Player {
     }
 
     public boolean Cast(Enemy enemy) {
-       return this.combatUtiles.Attack(enemy, attackPoints, "Rouge");
+        return this.combatUtiles.Attack(enemy, attackPoints, "Rogue");
     }
     public void GameTick() {
         currentEnergy = Math.min(currentEnergy + 10, 100);
@@ -42,7 +42,8 @@ public class Rouge extends Player {
 
     @Override
     public String Description() {
-        return "place holder for Rouge description";
+        return String.format("%s\t\tEnergy: %d/100",
+                super.Description(), this.currentEnergy);
     }
     @Override
     public int GetRange() {
