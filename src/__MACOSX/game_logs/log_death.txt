@@ -1,0 +1,314 @@
+PS C:\Users\TalBarami\IdeaProjects\Dungeons and Dragons v2\out\artifacts\Dungeons_and_Dragons_v2_jar> java -jar '.\Dungeons and Dragons v2.jar' "C:\Users\TalBarami\IdeaProjects\Dungeons and Dragons v2\levels_minimized"
+Select player:
+1. Jon Snow             Health: 300/300         Attack: 30              Defense: 4              Level: 1                Experience: 0/50                Cooldown: 0/3
+2. The Hound            Health: 400/400         Attack: 20              Defense: 6              Level: 1                Experience: 0/50                Cooldown: 0/5
+3. Melisandre           Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+4. Thoros of Myr                Health: 250/250         Attack: 25              Defense: 4              Level: 1                Experience: 0/50                Mana: 37/150            Spell Power: 20
+5. Arya Stark           Health: 150/150         Attack: 40              Defense: 2              Level: 1                Experience: 0/50                Energy: 100/100
+6. Bronn                Health: 250/250         Attack: 35              Defense: 3              Level: 1                Experience: 0/50                Energy: 100/100
+7. Ygritte              Health: 220/220         Attack: 30              Defense: 2              Level: 1                Experience: 0/50                Arrows: 10              Range: 6
+3
+You have selected:
+Melisandre
+#############
+#@....#B...q#
+#.....#.....#
+#.....s.....#
+#s....Bk....#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 75/300            Spell Power: 15
+d
+#############
+#.@...#B...q#
+#.....#.....#
+#.....s.....#
+#.s...Bk....#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 76/300            Spell Power: 15
+s
+#############
+#.....#.....#
+#.@...#....q#
+#.s...s.....#
+#......k....#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 77/300            Spell Power: 15
+d
+#############
+#.....#.....#
+#.s@..#....q#
+#.....sk....#
+#...........#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 78/300            Spell Power: 15
+d
+#############
+#.....#.....#
+#..s@.#...q.#
+#....sk.....#
+#...........#
+#############
+
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 79/300            Spell Power: 15
+s
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 100/100         Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 80/300            Spell Power: 15
+Lannister Solider rolled 5 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 5 damage to Melisandre.
+#############
+#.....#.....#
+#.....#....q#
+#..s@sk.....#
+#...........#
+#############
+
+Melisandre              Health: 95/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 80/300            Spell Power: 15
+s
+#############
+#.....#.....#
+#.....#....q#
+#....k......#
+#..s@s......#
+#############
+
+Melisandre              Health: 95/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 81/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Solider.
+Melisandre              Health: 95/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 81/300            Spell Power: 15
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre rolled 4 attack points.
+Lannister Solider rolled 2 defense points.
+Melisandre dealt 2 damage to Lannister Solider.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 78/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 95/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 82/300            Spell Power: 15
+Lannister Solider rolled 4 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 4 damage to Melisandre.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 91/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 82/300            Spell Power: 15
+Lannister Solider rolled 7 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 7 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#....k.....q#
+#..s@s......#
+#############
+
+Melisandre              Health: 84/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 82/300            Spell Power: 15
+w
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 84/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 83/300            Spell Power: 15
+Lannister Knight rolled 10 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 10 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#..s@k.....q#
+#....s......#
+#############
+
+Melisandre              Health: 74/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 83/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 74/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 83/300            Spell Power: 15
+Lannister Knight                Health: 200/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 3 attack points.
+Lannister Knight rolled 0 defense points.
+Melisandre dealt 3 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 74/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 84/300            Spell Power: 15
+Lannister Solider rolled 0 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 0 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 74/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 84/300            Spell Power: 15
+Lannister Knight rolled 3 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 3 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#..s@k.....q#
+#....s......#
+#############
+
+Melisandre              Health: 71/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 84/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 71/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 84/300            Spell Power: 15
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 0 attack points.
+Lannister Knight rolled 7 defense points.
+Melisandre dealt 0 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 71/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 85/300            Spell Power: 15
+Lannister Solider rolled 5 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 5 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 66/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 85/300            Spell Power: 15
+Lannister Knight rolled 6 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 6 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#..s@k.....q#
+#....s......#
+#############
+
+Melisandre              Health: 60/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 85/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 60/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 85/300            Spell Power: 15
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 1 attack points.
+Lannister Knight rolled 2 defense points.
+Melisandre dealt 0 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 60/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 86/300            Spell Power: 15
+Lannister Solider rolled 1 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 1 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 59/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 86/300            Spell Power: 15
+Lannister Knight rolled 10 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 10 damage to Melisandre.
+#############
+#.....#.....#
+#.....#.....#
+#..s@k.....q#
+#....s......#
+#############
+
+Melisandre              Health: 49/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 86/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 49/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 86/300            Spell Power: 15
+Lannister Knight                Health: 197/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 3 attack points.
+Lannister Knight rolled 0 defense points.
+Melisandre dealt 3 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 49/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 87/300            Spell Power: 15
+Lannister Solider rolled 1 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 1 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 194/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 48/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 87/300            Spell Power: 15
+Lannister Knight rolled 8 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 8 damage to Melisandre.
+#############
+#.....#.....#
+#.....#....q#
+#..s@k......#
+#....s......#
+#############
+
+Melisandre              Health: 40/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 87/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 40/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 87/300            Spell Power: 15
+Lannister Knight                Health: 194/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 4 attack points.
+Lannister Knight rolled 0 defense points.
+Melisandre dealt 4 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 40/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 88/300            Spell Power: 15
+Lannister Solider rolled 5 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 5 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 190/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 35/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 88/300            Spell Power: 15
+Lannister Knight rolled 13 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 13 damage to Melisandre.
+#############
+#.....#B....#
+#.....#....q#
+#..s@k......#
+#....sB.....#
+#############
+
+Melisandre              Health: 22/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 88/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 22/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 88/300            Spell Power: 15
+Lannister Knight                Health: 190/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 4 attack points.
+Lannister Knight rolled 1 defense points.
+Melisandre dealt 3 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 22/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 89/300            Spell Power: 15
+Lannister Solider rolled 3 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 3 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 187/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 19/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 89/300            Spell Power: 15
+Lannister Knight rolled 6 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 6 damage to Melisandre.
+#############
+#.....#.....#
+#.....#...q.#
+#..s@k......#
+#....s......#
+#############
+
+Melisandre              Health: 13/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 89/300            Spell Power: 15
+d
+Melisandre engaged in combat with Lannister Knight.
+Melisandre              Health: 13/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 89/300            Spell Power: 15
+Lannister Knight                Health: 187/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre rolled 2 attack points.
+Lannister Knight rolled 5 defense points.
+Melisandre dealt 0 damage to Lannister Knight.
+Lannister Solider engaged in combat with Melisandre.
+Lannister Solider               Health: 80/80           Attack: 8               Defense: 3              Experience Value: 25            Vision Range: 3
+Melisandre              Health: 13/100          Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 90/300            Spell Power: 15
+Lannister Solider rolled 5 attack points.
+Melisandre rolled 0 defense points.
+Lannister Solider dealt 5 damage to Melisandre.
+Lannister Knight engaged in combat with Melisandre.
+Lannister Knight                Health: 187/200         Attack: 14              Defense: 8              Experience Value: 50            Vision Range: 4
+Melisandre              Health: 8/100           Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 90/300            Spell Power: 15
+Lannister Knight rolled 10 attack points.
+Melisandre rolled 0 defense points.
+Lannister Knight dealt 10 damage to Melisandre.
+Melisandre was killed by Lannister Knight.
+You lost.
+#############
+#.....#.....#
+#.....#.....#
+#..sXk....q.#
+#....s......#
+#############
+
+Melisandre              Health: 0/100           Attack: 5               Defense: 1              Level: 1                Experience: 0/50                Mana: 90/300            Spell Power: 15
+Game Over.
