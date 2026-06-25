@@ -5,7 +5,7 @@ import Units.Unit;
 
 public class Wall extends Cell {
     public Wall(Position p) {
-        super(p,'#');
+        super(p,"#");
     }
 
     @Override

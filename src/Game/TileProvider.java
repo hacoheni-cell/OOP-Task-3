@@ -11,7 +11,7 @@ public class TileProvider {
     public static Enemy createEnemy(char c, Position pos, CombatSystem combatSystem, MessageCallback messageSender) {
         String tileString = String.valueOf(c);
 
-        switch (c) {
+        switch (tileString) {
             case "s":
                 return new Monster(3, 25, "Gold Cloak", 80, 80, 8, 3, pos, tileString, combatSystem, messageSender);
             case "k":
