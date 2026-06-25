@@ -25,14 +25,14 @@ public class GameController {
 
     private void initializePlayers() {
         Position initPos = new Position(0, 0);
-        String playerTile = "@";
-        availablePlayers.add(new Warrior("Jon Snow", 300, 30, 4, initPos, combatSystem, playerTile, 3, this.messageSender));
-        availablePlayers.add(new Warrior("The Hound", 400, 20, 6, initPos, combatSystem, playerTile, 5, this.messageSender));
-        availablePlayers.add(new Mage("Melisandre", 100, 5, 1, initPos, combatSystem, 300, 30, 15, 5, 6, playerTile, this.messageSender));
-        availablePlayers.add(new Mage("Thoros of Myr", 250, 25, 4, initPos, combatSystem, 150, 20, 20, 3, 4, playerTile, this.messageSender));
-        availablePlayers.add(new Rogue("Arya Stark", 150, 40, 2, initPos, combatSystem, playerTile, 20, this.messageSender));
-        availablePlayers.add(new Rogue("Bronn", 250, 35, 3, initPos, combatSystem, playerTile, 50, this.messageSender));
-        availablePlayers.add(new Hunter("Ygritte", 220, 30, 2, initPos, combatSystem, 6, playerTile, this.messageSender));
+        char playerTile = '@';
+        availablePlayers.add(new Warrior("Jon Snow", 300, 30, 4, initPos, combatSystem, playerTile, 3));
+        availablePlayers.add(new Warrior("The Hound", 400, 20, 6, initPos, combatSystem, playerTile, 5));
+        availablePlayers.add(new Mage("Melisandre", 100, 5, 1, initPos, combatSystem, 300, 30, 15, 5, 6, playerTile));
+        availablePlayers.add(new Mage("Thoros of Myr", 250, 25, 4, initPos, combatSystem, 150, 20, 20, 3, 4, playerTile));
+        availablePlayers.add(new Rogue("Arya Stark", 150, 40, 2, initPos, combatSystem, playerTile, 20));
+        availablePlayers.add(new Rogue("Bronn", 250, 35, 3, initPos, combatSystem, playerTile, 50));
+        availablePlayers.add(new Hunter("Ygritte", 220, 30, 2, initPos, combatSystem, 6, playerTile));
     }
     public void start() {
         selectPlayer();
