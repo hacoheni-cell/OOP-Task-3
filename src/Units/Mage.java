@@ -65,26 +65,38 @@ public class Mage extends Player {
             return 0;
         }
         SetCurrentMana(currentMana - manaCost);
+        messageCallback.send(this.getName() + " cast Blizzard.");
+
+        listOfUnits.remove(this); // שלא יקפיא את עצמו בטעות
+
         while (hits < hitsCount) {
-            if (listOfUnits == null || listOfUnits.size() == 0) {
-                return 0;
+            if (listOfUnits.isEmpty()) {
+                break;
             }
             Random rand = new Random();
-            int randomIndex = rand.nextInt(listOfUnits.size());
-            Unit otherUnit = listOfUnits.get(randomIndex);
-            this.Attack(otherUnit);
-            if (otherUnit.healthAmount == 0) {
-                listOfUnits.remove(otherUnit);
+            Unit target = listOfUnits.get(rand.nextInt(listOfUnits.size()));
+
+            // ה-Visitor מנתב את זה ישר ל-Cast(Enemy)
+            this.Attack(target);
+
+            if (target.isDead()) {
+                listOfUnits.remove(target);
             }
             hits++;
         }
         return 0;
     }
 
+    @Override
     public boolean Cast(Enemy enemy) {
-        return this.combatUtiles.Attack(enemy, this.spellPower, "Mage");
-    }
+        boolean hit = this.combatUtiles.Attack(enemy, this.spellPower, "Mage");
 
+        if (enemy.isDead()) {
+            messageCallback.send(enemy.getName() + " died. " + this.getName() + " gained " + enemy.getExperience() + " experience.");
+            this.SetExperience(this.experience + enemy.getExperience());
+        }
+        return hit;
+    }
     @Override
     public String Description() {
         return String.format("%s\t\tMana: %d/%d\t\tSpell Power: %d",

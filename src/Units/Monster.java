@@ -22,6 +22,12 @@ public class Monster extends Enemy {
         this.visionRange = visionRange;
     }
 
+    // הנה ה-toString שהיה חסר!
+    @Override
+    public String toString() {
+        return this.tileString;
+    }
+
     @Override
     public String Description() {
         return String.format("%s\t\tVision Range: %d\t\tDescription: %s",
@@ -60,7 +66,15 @@ public class Monster extends Enemy {
                 stepY = Integer.compare(playerPos.getY(), this.position.getY());
             }
 
-            Position old = this.position; if(gameContext.getCell(old, stepX, stepY).Accept(this)) gameContext.clearCell(old);
+            // שומרים עותק אמיתי של המיקום הישן
+            Position old = new Position(this.position.getX(), this.position.getY());
+            Game.Cell targetCell = gameContext.getCell(old, stepX, stepY);
+
+            // בודקים אם המשבצת מקבלת את המפלצת, ואם כן - מעדכנים מיקום פנימי
+            if (targetCell.Accept(this)) {
+                gameContext.clearCell(old);
+                this.setPosition(targetCell.getPos());
+            }
         } else {
             randomMove(gameContext);
         }
@@ -70,9 +84,13 @@ public class Monster extends Enemy {
         int randomIndex = (int) (Math.random() * MOVEMENT_DIRECTIONS.length);
         int[] chosenMove = MOVEMENT_DIRECTIONS[randomIndex];
 
-        Position old = this.position;
-        if(gameContext.getCell(old, chosenMove[0], chosenMove[1]).Accept(this)) {
+        // שומרים עותק אמיתי של המיקום הישן
+        Position old = new Position(this.position.getX(), this.position.getY());
+        Game.Cell targetCell = gameContext.getCell(old, chosenMove[0], chosenMove[1]);
+
+        if (targetCell.Accept(this)) {
             gameContext.clearCell(old);
+            this.setPosition(targetCell.getPos());
         }
     }
 }

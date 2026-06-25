@@ -29,14 +29,26 @@ public class Rogue extends Player {
             return 0;
         }
         currentEnergy -= cost;
-        for (Unit other : listOfUnits) {
-            this.Attack(other);
+        messageCallback.send(this.getName() + " cast Fan of Knives.");
+
+        listOfUnits.remove(this); // כדי שהסכינים לא יפגעו בו
+
+        for (Unit target : listOfUnits) {
+            // Visitor!
+            this.Attack(target);
         }
         return 0;
     }
 
+    @Override
     public boolean Cast(Enemy enemy) {
-        return this.combatUtiles.Attack(enemy, attackPoints, "Rogue");
+        boolean hit = this.combatUtiles.Attack(enemy, attackPoints, "Rogue");
+
+        if (enemy.isDead()) {
+            messageCallback.send(enemy.getName() + " died. " + this.getName() + " gained " + enemy.getExperience() + " experience.");
+            this.SetExperience(this.experience + enemy.getExperience());
+        }
+        return hit;
     }
 
     public void GameTick() {

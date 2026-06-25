@@ -20,14 +20,20 @@ public class Warrior extends Player {
     @Override
     public int Cast(List<Unit> listOfUnits) {
         if(remainingCoolDown == 0) {
-            if (listOfUnits == null || listOfUnits.size() == 0) {
+            listOfUnits.remove(this); // מוודא שהשחקן לא יוגרל כמטרה
+
+            if (listOfUnits == null || listOfUnits.isEmpty()) {
                 messageCallback.send("There are no enemies in range.");
                 return 0;
             }
+            messageCallback.send(this.getName() + " used Avenger's Strike, healing for " + (10 * this.defencePoints) + ".");
+
             Random rand = new Random();
-            int randomIndex = rand.nextInt(listOfUnits.size());
-            Unit otherUnit = listOfUnits.get(randomIndex);
-            this.Attack(otherUnit);
+            Unit target = listOfUnits.get(rand.nextInt(listOfUnits.size()));
+
+            // מפעיל את ה-Visitor! שום קאסטינג לאויב
+            this.Attack(target);
+
             this.remainingCoolDown = this.abilityCoolDown;
             SetHealthAmount(Math.min(healthPool, healthAmount + 10 * this.defencePoints));
             return 1;
@@ -38,9 +44,17 @@ public class Warrior extends Player {
         }
     }
 
+    @Override
     public boolean Cast(Enemy enemy) {
-        double damage = healthAmount * (double)0.1;
-        return this.combatUtiles.Attack(enemy, damage, "Warrior");
+        double damage = healthAmount * 0.1;
+        boolean hit = this.combatUtiles.Attack(enemy, damage, "Warrior");
+
+        // כאן זה כבר 100% אויב, אז אפשר לבדוק אם הוא מת ולקחת XP
+        if (enemy.isDead()) {
+            messageCallback.send(enemy.getName() + " died. " + this.getName() + " gained " + enemy.getExperience() + " experience.");
+            this.SetExperience(this.experience + enemy.getExperience());
+        }
+        return hit;
     }
 
     public boolean decreaseCoolDown() {

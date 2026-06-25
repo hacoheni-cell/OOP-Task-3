@@ -12,15 +12,16 @@ public class GameController {
     private List<Player> availablePlayers;
     private Player currentPlayer;
     private List<Level> levels;
-    private  CombatSystem combatSystem;
+    private CombatSystem combatSystem;
 
     public GameController(MessageCallback messageSender, InputCallback inputProvider, List<Level> levels, CombatSystem combatSystem) {
         this.messageSender = messageSender;
         this.inputProvider = inputProvider;
         this.levels = levels;
-        this.availablePlayers = new ArrayList<>();
-        initializePlayers();
+        // באג 1 תוקן: קודם צריך לשמור את מערכת הקרב שנייה לפני שמייצרים את השחקנים!
         this.combatSystem = combatSystem;
+        this.availablePlayers = new ArrayList<>();
+        initializePlayers(); // עכשיו כשיש combatSystem, השחקנים יקבלו אותו ולא null
     }
 
     private void initializePlayers() {
@@ -34,24 +35,23 @@ public class GameController {
         availablePlayers.add(new Rogue("Bronn", 250, 35, 3, initPos, combatSystem, playerTile, 50, this.messageSender));
         availablePlayers.add(new Hunter("Ygritte", 220, 30, 2, initPos, combatSystem, 6, playerTile, this.messageSender));
     }
+
     public void start() {
         selectPlayer();
         for (Level level : levels) {
-            if (currentPlayer.isDead()) {
-               PlayerDied(level);
-               return;
-            }
             playLevel(level, this.currentPlayer);
+
+            // באג 2 תוקן: בודקים אם הוא מת רק פעם אחת אחרי שהשלב מסתיים
+            if (currentPlayer.isDead()) {
+                return;
+            }
         }
 
-        if (currentPlayer.isDead()) {
-            PlayerDied(levels.get(levels.size() - 1));
-            return;
-        }
-        else {
+        if (!currentPlayer.isDead()) {
             messageSender.send("You won!");
         }
     }
+
     private void selectPlayer() {
         messageSender.send("Select player:");
         for (int i = 0; i < availablePlayers.size(); i++) {
@@ -81,27 +81,45 @@ public class GameController {
         currentPlayer.setPosition(startPos);
         level.setPlayer(player);
         level.setPlayerInInitPos(currentPlayer);
+
         while (!level.isCleared() && !currentPlayer.isDead()) {
             messageSender.send(level.getBoard().toString());
             messageSender.send(currentPlayer.Description());
             messageSender.send("Enter your move (w, a, s, d, e, q): ");
+
             player.GameTick();
             String input = inputProvider.getInput();
             currentPlayer.processInput(input, level);
+
+            // תיקון 1: ננקה אויבים שהשחקן הרג *מיד* אחרי פעולת השחקן!
+            level.removeDeadEnemies();
+
+            // תיקון 2: בדיקה מיידית אם השלב נגמר בעקבות מהלך השחקן
+            if (level.isCleared()) {
+                break;
+            }
+
             for (Enemy enemy : level.getEnemies()) {
+                if (enemy.isDead()) {
+                    continue;
+                }
+
                 enemy.GameTick();
+                enemy.takeTurn(level);
+
                 if (currentPlayer.isDead()) {
                     PlayerDied(level);
                     return;
                 }
-                enemy.takeTurn(level);
             }
+
+            // מנקים אויבים שמתו מסיבה כלשהי במהלך תור האויב (למשל אם בוס פגע בהם)
             level.removeDeadEnemies();
         }
     }
+
     private void PlayerDied(Level level) {
         messageSender.send(level.getBoard().toString());
         messageSender.send("You have been defeated! Game Over.");
-
     }
 }

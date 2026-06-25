@@ -23,7 +23,7 @@ public abstract class Enemy extends Unit {
 
     public boolean AdvanceVisit(Player p) {
         combatUtiles.Combat(this, p);
-        return true;
+        return false;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class Trap extends Enemy {
 
     @Override
     public String toString() {
-        return visible ? this.getName() : ".";
+        return visible ? this.tileString : ".";
     }
 
     @Override

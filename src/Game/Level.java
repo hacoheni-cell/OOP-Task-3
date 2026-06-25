@@ -35,8 +35,11 @@ public class Level implements GameContext{
             Unit enemy = iterator.next();
             if (enemy.isDead()) {
                 Position deadEnemyPos = enemy.getPos();
-                Floor emptyFloor = new Floor(deadEnemyPos, null);
-                gameBoard.setCell(deadEnemyPos.getX(), deadEnemyPos.getY(), emptyFloor);
+
+                if (gameBoard.getCell(deadEnemyPos.getX(), deadEnemyPos.getY()).getOccupant() == enemy) {
+                    clearCell(deadEnemyPos);
+                }
+
                 iterator.remove();
             }
         }

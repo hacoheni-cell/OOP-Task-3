@@ -31,7 +31,10 @@ public class Hunter extends Player {
             messageCallback.send("No arrows left for cast.");
             return 0;
         }
-        if (listOfUnits == null || listOfUnits.size() == 0) {
+
+        listOfUnits.remove(this); // מונע מהשחקן להיות "המטרה הקרובה ביותר"
+
+        if (listOfUnits == null || listOfUnits.isEmpty()) {
             messageCallback.send("There are no enemies in range.");
             return 0;
         }
@@ -48,6 +51,8 @@ public class Hunter extends Player {
 
         if (closest != null) {
             arrowsCount--;
+            messageCallback.send(this.getName() + " fired an arrow at " + closest.getName() + ".");
+            // Visitor!
             this.Attack(closest);
         }
         return 1;
@@ -55,9 +60,14 @@ public class Hunter extends Player {
 
     @Override
     public boolean Cast(Enemy enemy) {
-        return this.combatUtiles.Attack(enemy, attackPoints, "Hunter");
-    }
+        boolean hit = this.combatUtiles.Attack(enemy, attackPoints, "Hunter");
 
+        if (enemy.isDead()) {
+            messageCallback.send(enemy.getName() + " died. " + this.getName() + " gained " + enemy.getExperience() + " experience.");
+            this.SetExperience(this.experience + enemy.getExperience());
+        }
+        return hit;
+    }
     @Override
     public void GameTick() {
         if (ticksCount == 10) {

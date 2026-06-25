@@ -1,6 +1,7 @@
 package Units;
 
 import Combat_System.CombatSystem;
+import Game.Cell;
 import Game.GameContext;
 import Game.Position;
 import Game.MessageCallback;
@@ -25,10 +26,38 @@ public abstract class Player extends Unit {
     private void initializeActions() {
         actions = new HashMap<>();
 
-        actions.put("w", ctx -> { Position old = getPos(); if(ctx.getCell(old,0,-1).Accept(this)) ctx.clearCell(old); });
-        actions.put("s", ctx -> { Position old = getPos(); if(ctx.getCell(old,0,1).Accept(this)) ctx.clearCell(old); });
-        actions.put("a", ctx -> { Position old = getPos(); if(ctx.getCell(old,-1,0).Accept(this)) ctx.clearCell(old); });
-        actions.put("d", ctx -> { Position old = getPos(); if(ctx.getCell(old,1,0).Accept(this)) ctx.clearCell(old); });
+        actions.put("w", ctx -> {
+            Position old = getPos();
+            Cell target = ctx.getCell(old, 0, -1);
+            if(target.Accept(this)) {
+                ctx.clearCell(old);
+                this.setPosition(target.getPos()); // <--- התיקון הקריטי
+            }
+        });
+        actions.put("s", ctx -> {
+            Position old = getPos();
+            Cell target = ctx.getCell(old, 0, 1);
+            if(target.Accept(this)) {
+                ctx.clearCell(old);
+                this.setPosition(target.getPos());
+            }
+        });
+        actions.put("a", ctx -> {
+            Position old = getPos();
+            Cell target = ctx.getCell(old, -1, 0);
+            if(target.Accept(this)) {
+                ctx.clearCell(old);
+                this.setPosition(target.getPos());
+            }
+        });
+        actions.put("d", ctx -> {
+            Position old = getPos();
+            Cell target = ctx.getCell(old, 1, 0);
+            if(target.Accept(this)) {
+                ctx.clearCell(old);
+                this.setPosition(target.getPos());
+            }
+        });
         actions.put("e", ctx -> this.Cast(ctx.getUnitsInRange(this.getPos(), this.GetRange())));
         actions.put("q", ctx -> passTurn());
     }
@@ -62,11 +91,13 @@ public abstract class Player extends Unit {
         return other.AttackVisit(this);
     }
     public boolean AdvanceVisit(Enemy enemy) {
-        int res = this.combatUtiles.Combat(this, enemy);
-        if (res == -1) {
-            return false;
+        this.combatUtiles.Combat(this, enemy);
+        if (enemy.isDead()) {
+            messageCallback.send(enemy.getName() + " died. " + this.name + " gained " + enemy.getExperience() + " experience.");
+            this.SetExperience(this.experience + enemy.getExperience());
+            return true;
         }
-        return true;
+        return false;
     }
     public boolean AttackVisit(Enemy enemy) {
         return this.Cast(enemy);
@@ -75,7 +106,7 @@ public abstract class Player extends Unit {
     public abstract boolean Cast(Enemy enemy);
 
     public void LevelUp() {
-        SetExperience(experience - 50 * playerLevel);
+        experience -= 50 * playerLevel; // פשוט מורידים את הניסיון שנצרך לעליית הרמה
         playerLevel++;
         int healthGain = 10 * playerLevel;
         int attackGain = 4 * playerLevel;
@@ -91,7 +122,7 @@ public abstract class Player extends Unit {
 
     public void SetExperience(int i) {
         experience = Math.max(i, 0);
-        if(experience >= 50 * playerLevel) {
+        while (experience >= 50 * playerLevel) {
             LevelUp();
         }
     }
