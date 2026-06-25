@@ -6,7 +6,7 @@ import Game.MessageCallback;
 
 public abstract class Enemy extends Unit {
     protected int experience;
-    public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, char tileString, CombatSystem combatUtiles){
+    public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, String tileString, CombatSystem combatUtiles){
         super(name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles);
         this.experience = experience;
     }

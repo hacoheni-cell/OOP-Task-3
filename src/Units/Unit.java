@@ -10,8 +10,8 @@ public abstract class Unit {
     protected int defencePoints;
     protected Position position;
     protected CombatSystem combatUtiles;
-    char tileString;
-    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, char tileString, CombatSystem combatUtiles){
+    String tileString;
+    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, String tileString, CombatSystem combatUtiles){
         this.name = name;
         this.healthPool = healthPool;
         this.healthAmount = healthAmount;
@@ -113,7 +113,7 @@ public abstract class Unit {
     public Position getPos() {
         return position;
     }
-    public char toChar() {
+    public String toString() {
         return this.tileString;
     }
 }
