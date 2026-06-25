@@ -27,11 +27,11 @@ public class TileProvider {
             case 'w':
                 return new Monster(6, 1000, "White Walker", 2000, 2000, 150, 50, pos, 'w', combatSystem);
             case 'M':
-                return new Boss(6, 500, "The Mountain", 1000, 1000, 60, 25, pos, 'M', combatSystem, 5);
+                return new Boss(6, 500, "The Mountain", 1000, 1000, 60, 25, pos, 'M', combatSystem, 5, );
             case 'C':
-                return new Boss(1, 1000, "Queen Cersei", 100, 100, 10, 10, pos, 'C', combatSystem, 8);
+                return new Boss(1, 1000, "Queen Cersei", 100, 100, 10, 10, pos, 'C', combatSystem, 8, );
             case 'K':
-                return new Boss(8, 5000, "Night's King", 5000, 5000, 300, 150, pos, 'K', combatSystem, 3);
+                return new Boss(8, 5000, "Night's King", 5000, 5000, 300, 150, pos, 'K', combatSystem, 3, );
             case 'B':
                 return new Trap(1, 5, 0, true, 250, "Bonus Trap", 1, 1, 1, 1, pos, 1, 'B', combatSystem);
             case 'Q':
