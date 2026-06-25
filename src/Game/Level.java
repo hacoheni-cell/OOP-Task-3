@@ -13,8 +13,8 @@ public class Level implements GameContext{
     private Position playerInitalPosition;
     private Player player;
 
-    public Level(List<String> levelData, CombatSystem combatSys) {
-        parseLevel(levelData,combatSys);
+    public Level(List<String> levelData, CombatSystem combatSys, MessageCallback messageSender) {
+        parseLevel(levelData,combatSys,messageSender );
     }
 
     public GameBoard getBoard() {
@@ -53,7 +53,7 @@ public class Level implements GameContext{
         return player.getPos();
     }
 
-    private void parseLevel(List<String> levelData, CombatSystem combatSystem) {
+    private void parseLevel(List<String> levelData, CombatSystem combatSystem, MessageCallback messageSender) {
         int height = levelData.size();
         int width = levelData.get(0).length();
         this.gameBoard = new GameBoard(width, height);
@@ -76,7 +76,7 @@ public class Level implements GameContext{
                         playerInitalPosition = pos;
                     }
                     else {
-                        Enemy enemy = TileProvider.createEnemy(c, pos, combatSystem);
+                        Enemy enemy = TileProvider.createEnemy(c, pos, combatSystem, messageSender);
                         if (enemy != null) {
                             enemies.add(enemy);
                             floor.setOccupant(enemy);

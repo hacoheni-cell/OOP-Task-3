@@ -7,7 +7,7 @@ public class Floor extends Cell {
     private Unit occupant;
 
     public Floor(Position p, Unit u) {
-        super(p, '.');
+        super(p, ".");
         this.occupant = u;
     }
 

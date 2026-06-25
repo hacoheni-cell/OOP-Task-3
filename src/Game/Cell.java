@@ -4,14 +4,14 @@ import Units.Unit;
 
 public abstract class Cell {
     protected Position pos;
-    protected char tile;
+    protected String tile;
 
-    public Cell(Position pos, char tile) {
+    public Cell(Position pos, String tile) {
         this.pos = pos;
         this.tile = tile;
     }
 
-    public char getTile() {
+    public String getTile() {
         return tile;
     }
 
@@ -28,7 +28,7 @@ public abstract class Cell {
     public Unit getOccupant() {
         return null;
     }
-    public  char toChar() {
+    public  String toString() {
         return tile;
     }
 }
