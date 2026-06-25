@@ -20,8 +20,8 @@ public class Boss extends Enemy {
             {0, 0}
     };
 
-    public Boss(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String description, CombatSystem combatUtiles, int abilityCooldown, String tile) {
-        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position,tile ,combatUtiles);
+    public Boss(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String description, CombatSystem combatUtiles, int abilityCooldown) {
+        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, combatUtiles);
         this.visionRange = visionRange;
         this.description = description;
         this.abilityCooldown = abilityCooldown;
