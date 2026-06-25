@@ -1,4 +1,5 @@
 package Units;
+
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
@@ -6,8 +7,9 @@ import Game.MessageCallback;
 
 public abstract class Enemy extends Unit {
     protected int experience;
-    public Enemy(int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, char tileString, CombatSystem combatUtiles){
-        super(name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles);
+
+    public Enemy(int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, CombatSystem combatUtiles, MessageCallback messageCallback) {
+        super(name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles, messageCallback);
         this.experience = experience;
     }
 
@@ -20,18 +22,15 @@ public abstract class Enemy extends Unit {
     }
 
     public boolean AdvanceVisit(Player p) {
-        int res = combatUtiles.Combat(this, p);
-        if (res == -1) {
-            MessageCallback.send("Player is dead.");
-            return false;
-        }
-        MessageCallback.send("Combat occurred.");
+        combatUtiles.Combat(this, p);
         return true;
     }
+
     @Override
     public String Description() {
         return super.Description() + String.format("\t\tExperience: %d", this.experience);
     }
+
     public boolean AttackVisit(Player p) {
         this.cast(p);
         return true;
