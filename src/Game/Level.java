@@ -98,4 +98,8 @@ public class Level implements GameContext{
     public void setPlayer(Player player) {
         this.player = player;
     }
+    public void clearCell(Position p) {
+        Floor f = (Floor) gameBoard.getCell(p.getX(), p.getY());
+        f.setOccupant(null);
+    }
 }

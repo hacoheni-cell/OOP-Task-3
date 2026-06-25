@@ -60,7 +60,7 @@ public class Monster extends Enemy {
                 stepY = Integer.compare(playerPos.getY(), this.position.getY());
             }
 
-            gameContext.getCell(this.position, stepX, stepY).Accept(this);
+            Position old = this.position; if(gameContext.getCell(old, stepX, stepY).Accept(this)) gameContext.clearCell(old);
         } else {
             randomMove(gameContext);
         }
@@ -70,6 +70,9 @@ public class Monster extends Enemy {
         int randomIndex = (int) (Math.random() * MOVEMENT_DIRECTIONS.length);
         int[] chosenMove = MOVEMENT_DIRECTIONS[randomIndex];
 
-        gameContext.getCell(this.position, chosenMove[0], chosenMove[1]).Accept(this);
+        Position old = this.position;
+        if(gameContext.getCell(old, chosenMove[0], chosenMove[1]).Accept(this)) {
+            gameContext.clearCell(old);
+        }
     }
 }

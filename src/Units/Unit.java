@@ -115,7 +115,7 @@ public abstract class Unit {
     public Position getPos() {
         return position;
     }
-    public String toChar() {
+    public String toString() {
         return this.tileString;
     }
 }

@@ -64,6 +64,7 @@ public class GameBoard {
             for (int x = 0; x < grid[y].length; x++) {
                 sb.append(grid[y][x].toString());
             }
+            sb.append("\n");
         }
 
         return sb.toString();

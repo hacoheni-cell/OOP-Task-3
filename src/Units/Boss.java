@@ -76,8 +76,11 @@ public class Boss extends Enemy {
                 } else {
                     stepY = Integer.compare(playerPos.getY(), this.position.getY());
                 }
+                Position old = this.position;
+                if(gameContext.getCell(old, stepX, stepY).Accept(this)) {
+                    gameContext.clearCell(old);
+                }
 
-                gameContext.getCell(this.position, stepX, stepY).Accept(this);
             }
         } else {
             randomMove(gameContext);
@@ -87,7 +90,10 @@ public class Boss extends Enemy {
     private void randomMove(GameContext gameContext) {
         int randomIndex = (int) (Math.random() * MOVEMENT_DIRECTIONS.length);
         int[] chosenMove = MOVEMENT_DIRECTIONS[randomIndex];
-
+        Position old = this.position;
+        if(gameContext.getCell(old, chosenMove[0], chosenMove[1]).Accept(this)){
+            gameContext.clearCell(old);
+        }
         gameContext.getCell(this.position, chosenMove[0], chosenMove[1]).Accept(this);
     }
 }

@@ -33,4 +33,11 @@ public class Floor extends Cell {
     public void setOccupant(Unit unit) {
         occupant = unit;
     }
+    @Override
+    public String toString() {
+        if (this.occupant != null) {
+            return occupant.toString();
+        }
+        return String.valueOf(this.tile);
+    }
 }

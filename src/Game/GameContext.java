@@ -8,4 +8,5 @@ public interface GameContext {
     Cell getCell(Position p, int x, int y);
     List<Unit> getUnitsInRange(Position position, double range);
     Position getPlayerPos();
+    void clearCell(Position p);
 }

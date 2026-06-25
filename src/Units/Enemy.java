@@ -39,11 +39,6 @@ public abstract class Enemy extends Unit {
     public int getExperience() {
         return experience;
     }
-
-    public String toString() {
-        return this.getName();
-    }
-
     public abstract void cast(Unit unit);
     public abstract void takeTurn(GameContext gameContext);
 }

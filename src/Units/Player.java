@@ -25,11 +25,10 @@ public abstract class Player extends Unit {
     private void initializeActions() {
         actions = new HashMap<>();
 
-        actions.put("w", ctx -> ctx.getCell(this.getPos(), 0, -1).Accept(this));
-        actions.put("s", ctx -> ctx.getCell(this.getPos(), 0, 1).Accept(this));
-        actions.put("a", ctx -> ctx.getCell(this.getPos(), -1, 0).Accept(this));
-        actions.put("d", ctx -> ctx.getCell(this.getPos(), 1, 0).Accept(this));
-
+        actions.put("w", ctx -> { Position old = getPos(); if(ctx.getCell(old,0,-1).Accept(this)) ctx.clearCell(old); });
+        actions.put("s", ctx -> { Position old = getPos(); if(ctx.getCell(old,0,1).Accept(this)) ctx.clearCell(old); });
+        actions.put("a", ctx -> { Position old = getPos(); if(ctx.getCell(old,-1,0).Accept(this)) ctx.clearCell(old); });
+        actions.put("d", ctx -> { Position old = getPos(); if(ctx.getCell(old,1,0).Accept(this)) ctx.clearCell(old); });
         actions.put("e", ctx -> this.Cast(ctx.getUnitsInRange(this.getPos(), this.GetRange())));
         actions.put("q", ctx -> passTurn());
     }

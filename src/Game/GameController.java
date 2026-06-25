@@ -85,9 +85,11 @@ public class GameController {
             messageSender.send(level.getBoard().toString());
             messageSender.send(currentPlayer.Description());
             messageSender.send("Enter your move (w, a, s, d, e, q): ");
+            player.GameTick();
             String input = inputProvider.getInput();
             currentPlayer.processInput(input, level);
             for (Enemy enemy : level.getEnemies()) {
+                enemy.GameTick();
                 if (currentPlayer.isDead()) {
                     PlayerDied(level);
                     return;
