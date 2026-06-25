@@ -10,7 +10,7 @@ public class Hunter extends Player {
     protected int arrowsCount;
     protected int ticksCount;
 
-    public Hunter(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int range, char tile, MessageCallback messageCallback) {
+    public Hunter(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int range, String tile, MessageCallback messageCallback) {
         super(name, healthPool, attack, defence, pos, tile, combat, messageCallback);
         this.range = range;
         this.arrowsCount = 10 * playerLevel;

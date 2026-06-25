@@ -13,7 +13,7 @@ public class Trap extends Enemy {
     protected boolean visible;
     protected int visionRange;
 
-    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, int visionRange, char tile, CombatSystem combat, MessageCallback messageCallback) {
+    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, int visionRange, String tile, CombatSystem combat, MessageCallback messageCallback) {
         super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, tile, combat, messageCallback);
         this.visibilityTime = visibilityTime;
         this.invisibilityTime = invisibilityTime;

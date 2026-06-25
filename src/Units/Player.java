@@ -15,7 +15,7 @@ public abstract class Player extends Unit {
     protected Integer playerLevel;
     protected Map<String, Consumer<GameContext>> actions;
 
-    public Player(String name, int healthPool, int attack, int defence, Position pos, char tileString, CombatSystem combat, MessageCallback messageCallback){
+    public Player(String name, int healthPool, int attack, int defence, Position pos, String tileString, CombatSystem combat, MessageCallback messageCallback){
         super(name, healthPool, healthPool, attack, defence, pos, tileString, combat, messageCallback);
         experience = 0;
         playerLevel = 1;
@@ -100,9 +100,9 @@ public abstract class Player extends Unit {
         return healthAmount <= 0;
     }
     public abstract int GetRange();
-    public char toChar() {
+    public String toString() {
         if(isDead()) {
-            return 'X';
+            return "X";
         }
         return this.tileString;
     }

@@ -17,7 +17,7 @@ public class Monster extends Enemy {
             {0, 0}
     };
 
-    public Monster(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, String description, CombatSystem combatUtiles, MessageCallback messageCallback) {
+    public Monster(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String tileString, String description, CombatSystem combatUtiles, MessageCallback messageCallback) {
         super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles, messageCallback);
         this.visionRange = visionRange;
         this.description = description;

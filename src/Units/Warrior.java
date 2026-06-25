@@ -11,7 +11,7 @@ public class Warrior extends Player {
     protected Integer remainingCoolDown;
     protected Integer abilityCoolDown;
 
-    public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, char tileString, int abilityCoolDown, MessageCallback messageCallback) {
+    public Warrior(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, String tileString, int abilityCoolDown, MessageCallback messageCallback) {
         super(name, healthPool, attack, defence, pos, tileString, combat, messageCallback);
         remainingCoolDown = 0;
         this.abilityCoolDown = abilityCoolDown;

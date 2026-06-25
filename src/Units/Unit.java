@@ -12,10 +12,10 @@ public abstract class Unit {
     protected int defencePoints;
     protected Position position;
     protected CombatSystem combatUtiles;
-    char tileString;
+    String tileString;
     protected MessageCallback messageCallback;
 
-    public Unit(String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, CombatSystem combatUtiles, MessageCallback messageCallback) {
+    public Unit(String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String tileString, CombatSystem combatUtiles, MessageCallback messageCallback) {
         this.name = name;
         this.healthPool = healthPool;
         this.healthAmount = healthAmount;
@@ -115,7 +115,7 @@ public abstract class Unit {
     public Position getPos() {
         return position;
     }
-    public char toChar() {
+    public String toChar() {
         return this.tileString;
     }
 }
