@@ -2,6 +2,7 @@ package Units;
 
 import Combat_System.CombatSystem;
 import Game.Position;
+import Game.MessageCallback;
 import java.util.List;
 
 public class Hunter extends Player {
@@ -9,8 +10,8 @@ public class Hunter extends Player {
     protected int arrowsCount;
     protected int ticksCount;
 
-    public Hunter(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int range, char tile) {
-        super(name, healthPool, attack, defence, pos,tile, combat);
+    public Hunter(String name, int healthPool, int attack, int defence, Position pos, CombatSystem combat, int range, char tile, MessageCallback messageCallback) {
+        super(name, healthPool, attack, defence, pos, tile, combat, messageCallback);
         this.range = range;
         this.arrowsCount = 10 * playerLevel;
         this.ticksCount = 0;
@@ -27,9 +28,11 @@ public class Hunter extends Player {
     @Override
     public int Cast(List<Unit> listOfUnits) {
         if (arrowsCount == 0) {
-            throw new IllegalArgumentException("No arrows left for cast.");
+            messageCallback.send("No arrows left for cast.");
+            return 0;
         }
         if (listOfUnits == null || listOfUnits.size() == 0) {
+            messageCallback.send("There are no enemies in range.");
             return 0;
         }
 

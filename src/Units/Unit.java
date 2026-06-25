@@ -1,6 +1,8 @@
 package Units;
+
 import Combat_System.CombatSystem;
 import Game.Position;
+import Game.MessageCallback;
 
 public abstract class Unit {
     protected String name;
@@ -11,7 +13,9 @@ public abstract class Unit {
     protected Position position;
     protected CombatSystem combatUtiles;
     char tileString;
-    public Unit(String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position, char tileString, CombatSystem combatUtiles){
+    protected MessageCallback messageCallback;
+
+    public Unit(String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, CombatSystem combatUtiles, MessageCallback messageCallback) {
         this.name = name;
         this.healthPool = healthPool;
         this.healthAmount = healthAmount;
@@ -20,12 +24,12 @@ public abstract class Unit {
         this.position = position;
         this.combatUtiles = combatUtiles;
         this.tileString = tileString;
+        this.messageCallback = messageCallback;
     }
 
     public String getName() {
         return name;
     }
-
 
     public void setName(String newName) {
         this.name = newName;
@@ -49,7 +53,6 @@ public abstract class Unit {
         }
     }
 
-
     public void SetHealthAmount(int health) {
         if (health > healthPool) {
             this.healthAmount = healthPool;
@@ -58,7 +61,6 @@ public abstract class Unit {
             this.healthAmount = health;
         }
     }
-
 
     public void SetAttackPoints(int i) {
         if (i < 0) {

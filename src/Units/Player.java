@@ -1,7 +1,9 @@
 package Units;
+
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
+import Game.MessageCallback;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,8 +15,8 @@ public abstract class Player extends Unit {
     protected Integer playerLevel;
     protected Map<String, Consumer<GameContext>> actions;
 
-    public Player(String name, int healthPool, int attack, int defence, Position pos, char tileString, CombatSystem combat){
-        super(name, healthPool, healthPool, attack, defence, pos, tileString, combat);
+    public Player(String name, int healthPool, int attack, int defence, Position pos, char tileString, CombatSystem combat, MessageCallback messageCallback){
+        super(name, healthPool, healthPool, attack, defence, pos, tileString, combat, messageCallback);
         experience = 0;
         playerLevel = 1;
         initializeActions();
@@ -42,7 +44,7 @@ public abstract class Player extends Unit {
         if (action != null) {
             action.accept(context);
         } else {
-            System.out.println("Unknown command. Use W, A, S, D, E, or Q.");
+            messageCallback.send("Unknown command. Use W, A, S, D, E, or Q.");
         }
     }
 
@@ -54,7 +56,6 @@ public abstract class Player extends Unit {
                 super.Description(), this.playerLevel, this.experience, (50 * playerLevel));
     }
 
-
     public boolean AdvanceAccept(Unit other) {
         return other.AdvanceVisit(this);
     }
@@ -64,10 +65,8 @@ public abstract class Player extends Unit {
     public boolean AdvanceVisit(Enemy enemy) {
         int res = this.combatUtiles.Combat(this, enemy);
         if (res == -1) {
-            System.out.println("Place holder for player is dead.");
             return false;
         }
-        System.out.println("place holder for player is alive and gained points? or 0 points");
         return true;
     }
     public boolean AttackVisit(Enemy enemy) {
@@ -79,10 +78,16 @@ public abstract class Player extends Unit {
     public void LevelUp() {
         SetExperience(experience - 50 * playerLevel);
         playerLevel++;
-        SetHealthPool(healthPool + 10 * playerLevel);
+        int healthGain = 10 * playerLevel;
+        int attackGain = 4 * playerLevel;
+        int defenceGain = playerLevel;
+
+        SetHealthPool(healthPool + healthGain);
         SetHealthAmount(healthPool);
-        SetAttackPoints(attackPoints + 4 * playerLevel);
-        SetDefencePoints(defencePoints + playerLevel);
+        SetAttackPoints(attackPoints + attackGain);
+        SetDefencePoints(defencePoints + defenceGain);
+
+        messageCallback.send(this.name + " reached level " + playerLevel + ": +" + healthGain + " Health, +" + attackGain + " Attack, +" + defenceGain + " Defense");
     }
 
     public void SetExperience(int i) {

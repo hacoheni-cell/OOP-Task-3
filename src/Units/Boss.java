@@ -20,8 +20,8 @@ public class Boss extends Enemy {
             {0, 0}
     };
 
-    public Boss(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String description, CombatSystem combatUtiles, int abilityCooldown) {
-        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, combatUtiles);
+    public Boss(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, String description, CombatSystem combatUtiles, int abilityCooldown, MessageCallback messageCallback) {
+        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles, messageCallback);
         this.visionRange = visionRange;
         this.description = description;
         this.abilityCooldown = abilityCooldown;
@@ -50,7 +50,7 @@ public class Boss extends Enemy {
     public void cast(Unit unit) {
         int damage = Math.max(0, this.getAttackPoints() - unit.getDefencePoints());
         unit.setHealthAmount(unit.getHealthAmount() - damage);
-        MessageCallback.send(this.getName() + " casted a special ability on " + unit.getName() + " for " + damage + " damage.");
+        messageCallback.send(this.getName() + " casted a special ability on " + unit.getName() + " for " + damage + " damage.");
     }
 
     @Override

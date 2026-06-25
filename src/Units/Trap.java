@@ -1,4 +1,5 @@
 package Units;
+
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
@@ -12,9 +13,8 @@ public class Trap extends Enemy {
     protected boolean visible;
     protected int visionRange;
 
-
-    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible,int experience,String name,int healthPool,int healthAmount,int attackPoints,int defencePoints,Position position,int visionRange,char tile, CombatSystem combat) {
-        super(experience,name,healthPool,healthAmount,attackPoints,defencePoints,position, tile,combat );
+    public Trap(int visibilityTime, int invisibilityTime, int ticksCount, boolean visible, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, int visionRange, char tile, CombatSystem combat, MessageCallback messageCallback) {
+        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, tile, combat, messageCallback);
         this.visibilityTime = visibilityTime;
         this.invisibilityTime = invisibilityTime;
         this.ticksCount = ticksCount;
@@ -30,7 +30,7 @@ public class Trap extends Enemy {
     @Override
     public String Description() {
         return String.format("%s\t\tVision Range: %d\t\tDescription: %s",
-                super.Description(), this.visionRange, this.description);
+                super.Description(), this.visionRange);
     }
 
     @Override
@@ -64,7 +64,7 @@ public class Trap extends Enemy {
         if (this.position.range(target.getPos()) < 2) {
             int damage = Math.max(0, this.getAttackPoints() - target.getDefencePoints());
             target.setHealthAmount(target.getHealthAmount() - damage);
-            MessageCallback.send(this.getName() + " hit " + target.getName() + " for " + damage + " damage.");
+            messageCallback.send(this.getName() + " hit " + target.getName() + " for " + damage + " damage.");
         }
     }
 }

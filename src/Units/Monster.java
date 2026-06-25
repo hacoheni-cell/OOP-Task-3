@@ -3,6 +3,7 @@ package Units;
 import Combat_System.CombatSystem;
 import Game.GameContext;
 import Game.Position;
+import Game.MessageCallback;
 
 public class Monster extends Enemy {
     protected int visionRange;
@@ -16,8 +17,8 @@ public class Monster extends Enemy {
             {0, 0}
     };
 
-    public Monster(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, String description, CombatSystem combatUtiles){
-        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, combatUtiles);
+    public Monster(int visionRange, int experience, String name, int healthPool, int healthAmount, int attackPoints, int defencePoints, Position position, char tileString, String description, CombatSystem combatUtiles, MessageCallback messageCallback) {
+        super(experience, name, healthPool, healthAmount, attackPoints, defencePoints, position, tileString, combatUtiles, messageCallback);
         this.visionRange = visionRange;
         this.description = description;
     }
@@ -29,7 +30,7 @@ public class Monster extends Enemy {
     }
 
     @Override
-    public int GetRange(){
+    public int GetRange() {
         return visionRange;
     }
 
