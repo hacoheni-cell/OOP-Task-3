@@ -53,7 +53,7 @@ public class Monster extends Enemy {
     public void takeTurn(GameContext gameContext) {
         Position playerPos = gameContext.getPlayerPos();
 
-        if (this.position.range(playerPos) < visionRange) {
+        if (this.position.range(playerPos) <= visionRange) {
             int dx = this.position.getX() - playerPos.getX();
             int dy = this.position.getY() - playerPos.getY();
 
