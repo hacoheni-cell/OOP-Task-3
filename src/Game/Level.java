@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Iterator;
 
 public class Level implements GameContext{
+    private MessageCallback messageSender;
     private List<Enemy> enemies;
     private GameBoard gameBoard;
     private Position playerInitalPosition;
@@ -15,6 +16,7 @@ public class Level implements GameContext{
 
     public Level(List<String> levelData, CombatSystem combatSys, MessageCallback messageSender) {
         parseLevel(levelData,combatSys,messageSender );
+        this.messageSender = messageSender;
     }
 
     public GameBoard getBoard() {
@@ -34,12 +36,11 @@ public class Level implements GameContext{
         while (iterator.hasNext()) {
             Unit enemy = iterator.next();
             if (enemy.isDead()) {
+                messageSender.send(enemy.getName() + " died.");
                 Position deadEnemyPos = enemy.getPos();
-
                 if (gameBoard.getCell(deadEnemyPos.getX(), deadEnemyPos.getY()).getOccupant() == enemy) {
                     clearCell(deadEnemyPos);
                 }
-
                 iterator.remove();
             }
         }

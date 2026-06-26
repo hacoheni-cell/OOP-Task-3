@@ -31,7 +31,7 @@ public class Rogue extends Player {
         currentEnergy -= cost;
         messageCallback.send(this.getName() + " cast Fan of Knives.");
 
-        listOfUnits.remove(this); // כדי שהסכינים לא יפגעו בו
+        listOfUnits.remove(this);
 
         for (Unit target : listOfUnits) {
             // Visitor!

@@ -48,7 +48,7 @@ public class Boss extends Enemy {
     @Override
     public void cast(Unit unit) {
         int damage = Math.max(0, this.getAttackPoints() - unit.getDefencePoints());
-        unit.setHealthAmount(unit.getHealthAmount() - damage);
+        unit.SetHealthAmount(unit.getHealthAmount() - damage);
         messageCallback.send(this.getName() + " casted a special ability on " + unit.getName() + " for " + damage + " damage.");
     }
 
@@ -77,7 +77,6 @@ public class Boss extends Enemy {
                     stepY = Integer.compare(playerPos.getY(), this.position.getY());
                 }
 
-                // שומרים עותק אמיתי של המיקום הישן
                 Position old = new Position(this.position.getX(), this.position.getY());
                 Game.Cell targetCell = gameContext.getCell(old, stepX, stepY);
 
@@ -94,8 +93,6 @@ public class Boss extends Enemy {
     private void randomMove(GameContext gameContext) {
         int randomIndex = (int) (Math.random() * MOVEMENT_DIRECTIONS.length);
         int[] chosenMove = MOVEMENT_DIRECTIONS[randomIndex];
-
-        // שומרים עותק אמיתי של המיקום הישן
         Position old = new Position(this.position.getX(), this.position.getY());
         Game.Cell targetCell = gameContext.getCell(old, chosenMove[0], chosenMove[1]);
 

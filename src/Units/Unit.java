@@ -103,9 +103,6 @@ public abstract class Unit {
         return healthAmount;
     }
 
-    public void setHealthAmount(int newHealth) {
-        healthAmount = newHealth;
-    }
     public void setPosition(Position position) {
         this.position = position;
     }

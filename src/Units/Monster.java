@@ -65,12 +65,8 @@ public class Monster extends Enemy {
             } else {
                 stepY = Integer.compare(playerPos.getY(), this.position.getY());
             }
-
-            // שומרים עותק אמיתי של המיקום הישן
             Position old = new Position(this.position.getX(), this.position.getY());
             Game.Cell targetCell = gameContext.getCell(old, stepX, stepY);
-
-            // בודקים אם המשבצת מקבלת את המפלצת, ואם כן - מעדכנים מיקום פנימי
             if (targetCell.Accept(this)) {
                 gameContext.clearCell(old);
                 this.setPosition(targetCell.getPos());
@@ -83,8 +79,6 @@ public class Monster extends Enemy {
     private void randomMove(GameContext gameContext) {
         int randomIndex = (int) (Math.random() * MOVEMENT_DIRECTIONS.length);
         int[] chosenMove = MOVEMENT_DIRECTIONS[randomIndex];
-
-        // שומרים עותק אמיתי של המיקום הישן
         Position old = new Position(this.position.getX(), this.position.getY());
         Game.Cell targetCell = gameContext.getCell(old, chosenMove[0], chosenMove[1]);
 

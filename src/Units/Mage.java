@@ -67,7 +67,7 @@ public class Mage extends Player {
         SetCurrentMana(currentMana - manaCost);
         messageCallback.send(this.getName() + " cast Blizzard.");
 
-        listOfUnits.remove(this); // שלא יקפיא את עצמו בטעות
+        listOfUnits.remove(this);
 
         while (hits < hitsCount) {
             if (listOfUnits.isEmpty()) {
@@ -76,7 +76,6 @@ public class Mage extends Player {
             Random rand = new Random();
             Unit target = listOfUnits.get(rand.nextInt(listOfUnits.size()));
 
-            // ה-Visitor מנתב את זה ישר ל-Cast(Enemy)
             this.Attack(target);
 
             if (target.isDead()) {

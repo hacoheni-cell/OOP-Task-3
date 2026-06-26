@@ -11,10 +11,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        CombatSystem combatSystem = new DefaultCombat();
         CLI cli = new CLI();
         MessageCallback printer = (msg) -> cli.displayMessage(msg);
         InputCallback reader = () -> cli.getInput();
+        CombatSystem combatSystem = DefaultCombat.getInstance(printer);
         if (args.length == 0) {
             printer.send("Error: Missing levels directory path.");
             return;

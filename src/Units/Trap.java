@@ -63,7 +63,7 @@ public class Trap extends Enemy {
         }
         if (this.position.range(target.getPos()) < 2) {
             int damage = Math.max(0, this.getAttackPoints() - target.getDefencePoints());
-            target.setHealthAmount(target.getHealthAmount() - damage);
+            target.SetHealthAmount(target.getHealthAmount() - damage);
             messageCallback.send(this.getName() + " hit " + target.getName() + " for " + damage + " damage.");
         }
     }

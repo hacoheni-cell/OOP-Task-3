@@ -18,10 +18,9 @@ public class GameController {
         this.messageSender = messageSender;
         this.inputProvider = inputProvider;
         this.levels = levels;
-        // באג 1 תוקן: קודם צריך לשמור את מערכת הקרב שנייה לפני שמייצרים את השחקנים!
         this.combatSystem = combatSystem;
         this.availablePlayers = new ArrayList<>();
-        initializePlayers(); // עכשיו כשיש combatSystem, השחקנים יקבלו אותו ולא null
+        initializePlayers();
     }
 
     private void initializePlayers() {
@@ -40,13 +39,10 @@ public class GameController {
         selectPlayer();
         for (Level level : levels) {
             playLevel(level, this.currentPlayer);
-
-            // באג 2 תוקן: בודקים אם הוא מת רק פעם אחת אחרי שהשלב מסתיים
             if (currentPlayer.isDead()) {
                 return;
             }
         }
-
         if (!currentPlayer.isDead()) {
             messageSender.send("You won!");
         }
@@ -81,39 +77,30 @@ public class GameController {
         currentPlayer.setPosition(startPos);
         level.setPlayer(player);
         level.setPlayerInInitPos(currentPlayer);
-
         while (!level.isCleared() && !currentPlayer.isDead()) {
             messageSender.send(level.getBoard().toString());
             messageSender.send(currentPlayer.Description());
             messageSender.send("Enter your move (w, a, s, d, e, q): ");
-
             player.GameTick();
             String input = inputProvider.getInput();
             currentPlayer.processInput(input, level);
-
-            // תיקון 1: ננקה אויבים שהשחקן הרג *מיד* אחרי פעולת השחקן!
             level.removeDeadEnemies();
-
-            // תיקון 2: בדיקה מיידית אם השלב נגמר בעקבות מהלך השחקן
             if (level.isCleared()) {
+                messageSender.send("Level Complete!");
                 break;
             }
-
             for (Enemy enemy : level.getEnemies()) {
                 if (enemy.isDead()) {
+
                     continue;
                 }
-
                 enemy.GameTick();
                 enemy.takeTurn(level);
-
                 if (currentPlayer.isDead()) {
                     PlayerDied(level);
                     return;
                 }
             }
-
-            // מנקים אויבים שמתו מסיבה כלשהי במהלך תור האויב (למשל אם בוס פגע בהם)
             level.removeDeadEnemies();
         }
     }
