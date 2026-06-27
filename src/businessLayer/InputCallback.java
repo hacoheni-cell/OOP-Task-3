@@ -1,4 +1,4 @@
-package Game;
+package businessLayer;
 
 public interface InputCallback {
     String getInput();

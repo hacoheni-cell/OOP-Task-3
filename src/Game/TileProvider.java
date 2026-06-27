@@ -4,7 +4,8 @@ import Units.Enemy;
 import Units.Monster;
 import Units.Trap;
 import Units.Boss;
-import Combat_System.CombatSystem;
+import businessLayer.MessageCallback;
+import combat.CombatSystem;
 
 public class TileProvider {
 

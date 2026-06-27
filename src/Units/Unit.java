@@ -1,8 +1,8 @@
 package Units;
 
-import Combat_System.CombatSystem;
+import combat.CombatSystem;
 import Game.Position;
-import Game.MessageCallback;
+import businessLayer.MessageCallback;
 
 public abstract class Unit {
     protected String name;

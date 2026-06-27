@@ -1,10 +1,10 @@
 package Units;
 
-import Combat_System.CombatSystem;
+import combat.CombatSystem;
 import Game.Cell;
 import Game.GameContext;
 import Game.Position;
-import Game.MessageCallback;
+import businessLayer.MessageCallback;
 
 import java.util.HashMap;
 import java.util.List;

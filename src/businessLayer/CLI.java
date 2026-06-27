@@ -1,4 +1,4 @@
-package BusinessLayer;
+package businessLayer;
 import java.util.Scanner;
 
     public class CLI {

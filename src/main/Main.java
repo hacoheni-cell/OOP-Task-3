@@ -1,8 +1,13 @@
-package Game;
+package main;
 
-import Combat_System.CombatSystem;
-import Combat_System.DefaultCombat;
-import BusinessLayer.CLI;
+import combat.CombatSystem;
+import combat.DefaultCombat;
+import businessLayer.CLI;
+import Game.GameController;
+import businessLayer.InputCallback;
+import Game.Level;
+import businessLayer.MessageCallback;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;

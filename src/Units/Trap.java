@@ -1,9 +1,9 @@
 package Units;
 
-import Combat_System.CombatSystem;
+import combat.CombatSystem;
 import Game.GameContext;
 import Game.Position;
-import Game.MessageCallback;
+import businessLayer.MessageCallback;
 import java.util.List;
 
 public class Trap extends Enemy {

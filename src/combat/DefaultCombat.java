@@ -1,7 +1,7 @@
-package Combat_System;
+package combat;
 
 import Units.Unit;
-import Game.MessageCallback;
+import businessLayer.MessageCallback;
 import java.util.Random;
 
 public class DefaultCombat implements CombatSystem {

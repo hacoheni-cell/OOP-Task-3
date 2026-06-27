@@ -1,9 +1,9 @@
 package Units;
 
-import Combat_System.CombatSystem;
+import combat.CombatSystem;
 import Game.GameContext;
 import Game.Position;
-import Game.MessageCallback;
+import businessLayer.MessageCallback;
 
 public class Monster extends Enemy {
     protected int visionRange;

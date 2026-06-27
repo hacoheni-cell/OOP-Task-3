@@ -1,6 +1,7 @@
 package Game;
 
-import Combat_System.CombatSystem;
+import businessLayer.MessageCallback;
+import combat.CombatSystem;
 import Units.*;
 
 import java.util.ArrayList;

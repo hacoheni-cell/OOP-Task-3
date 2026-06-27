@@ -3,7 +3,9 @@ package Game;
 import java.util.ArrayList;
 import java.util.List;
 
-import Combat_System.CombatSystem;
+import businessLayer.InputCallback;
+import businessLayer.MessageCallback;
+import combat.CombatSystem;
 import Units.*;
 
 public class GameController {

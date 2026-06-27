@@ -1,4 +1,4 @@
-package Combat_System;
+package combat;
 
 import Units.Unit;
 
